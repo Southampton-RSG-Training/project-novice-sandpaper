@@ -1,11 +1,5 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
-
 cff-version: 1.2.0
-title: FIXME
+title: Managing an Academic Software Project
 message: >-
   Please cite this lesson using the information in this file
   when you refer to it in publications, and/or if you
@@ -13,10 +7,11 @@ message: >-
   training material.
 type: dataset
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: Sam
+    family-names: Mangham
+  - given-names: Steve
+    family-names: Crouch
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+    This course is designed to introduce academics to project management in a light and flexible way, providing basic guidance on breaking a project into tasks to be prioritised and tracked.
+    It also covers software sustainability, encouraging best practise like clear coding and issue management, as well as the use of DOIs and releases to enable easy citation.
 license: CC-BY-4.0

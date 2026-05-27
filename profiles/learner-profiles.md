@@ -1,5 +1,9 @@
 ---
-title: FIXME
+title: Learner Profiles
 ---
 
-This is a placeholder file. Please add content here. 
+# Profile 1
+
+- Attended Git Novice SWC
+- Working on a project developing software
+
