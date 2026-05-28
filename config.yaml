@@ -49,18 +49,10 @@ contact: 'rsg-info@soton.ac.uk'
 # individual pages in each dropdown section. Leave blank to
 # include all pages in the folder.
 #
-# Example -------------
-#
 # episodes:
 # - introduction.md
 # - first-steps.md
-#
-# learners:
-# - setup.md
-#
-# instructors:
-# - instructor-notes.md
-#
+
 # profiles:
 # - one-learner.md
 # - another-learner.md
@@ -77,9 +69,12 @@ episodes:
 
 # Information for Learners
 learners:
+- setup.md
+- reference.md
 
 # Information for Instructors
 instructors:
+- instructor-notes.md
 
 # Learner Profiles
 profiles:

@@ -2,4 +2,5 @@
 title: 'Instructor Notes'
 ---
 
-This is a placeholder file. Please add content here. 
+Depending on speed, it's likely you might not be able to finish the mini-project.
+The material is a bit over-full.

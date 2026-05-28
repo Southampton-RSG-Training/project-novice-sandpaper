@@ -4,7 +4,6 @@ teaching: 20
 exercises: 0
 ---
 
-
 :::::::::::: objectives
 
 - Explain how to create stable releases for software

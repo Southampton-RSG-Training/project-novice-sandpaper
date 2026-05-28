@@ -9,8 +9,12 @@ type: dataset
 authors:
   - given-names: Sam
     family-names: Mangham
+    orcid: https://orcid.org/0000-0001-7511-5652
+    affiliation: University of Southampton
   - given-names: Steve
     family-names: Crouch
+    orcid: https://orcid.org/0000-0001-8985-6814
+    affiliation: University of Southampton
 abstract: >-
     This course is designed to introduce academics to project management in a light and flexible way, providing basic guidance on breaking a project into tasks to be prioritised and tracked.
     It also covers software sustainability, encouraging best practise like clear coding and issue management, as well as the use of DOIs and releases to enable easy citation.
