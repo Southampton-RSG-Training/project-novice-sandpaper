@@ -2,53 +2,49 @@
 title: Setup
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+## Accounts
 
-## Data Sets
+We'll be using the website [GitHub](https://github.com/) to host, back up, and distribute our code.
+If you don't already have one, you'll need to [create an account there](https://github.com/signup).
+As your GitHub username will appear in the URLs of your projects there, it's best to use a short, clear version of your name if you can.
 
-<!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
--->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
+## Repositories
+
+:::::::: prereq
+
+### Follow-on Lesson
+
+If you've completed our **Version Control with Git** workshop, you can use the `climate-analysis` repository you created during it.
+
+::::::::
+
+We'll be showing you how to manage an example academic software project, using a simple example.
+[Create a copy of the example from this template (linked here)](https://github.com/Southampton-RSG-Training/project-novice-template/generate), and name it `climate-analysis`.
 
 ## Software Setup
 
-::::::::::::::::::::::::::::::::::::::: discussion
+This workshop involves editing code files.
+Whilst you can use any text editor to do this, some code editors or Integrated Development Environments (IDEs) have features designed to make coding easier.
 
-### Details
+If you're already using a code editor or IDE (e.g. [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) or [Spyder](https://www.spyder-ide.org/)), stick with what you're comfortable with.
+If not, we'd recommend installing **Visual Studio Code**.
 
-Setup for different systems can be presented in dropdown menus via a `spoiler`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::: spoiler
+:::::::: tab
 
 ### Windows
 
-Use PuTTY
+Search for **Visual Studio Code** in the Microsoft Store and install it.
 
-::::::::::::::::::::::::
+### Mac
 
-:::::::::::::::: spoiler
+Download the installer from [the Visual Studio Code website](https://code.visualstudio.com/).
 
-### MacOS
+### Ubuntu Linux
 
-Use Terminal.app
+Search for **Visual Studio Code** in the Software Centre and install it.
 
-::::::::::::::::::::::::
+### Other Linux
 
+Install instructions are available on [the Visual Studio Code website](https://code.visualstudio.com/docs/setup/linux).
 
-:::::::::::::::: spoiler
-
-### Linux
-
-Use Terminal
-
-::::::::::::::::::::::::
-
+::::::::
