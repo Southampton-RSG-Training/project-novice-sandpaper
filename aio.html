@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: All in One View</title>
+<title>Managing an Academic Software Project: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="assets/themetoggle.js"></script><link rel="stylesheet" type="text/css" href="assets/styles.css">
 <script src="assets/scripts.js" type="text/javascript"></script><!-- mathjax --><!-- NOTE: https://docs.mathjax.org/en/latest/output/mathml.html#mathml-support --><!-- Changes from V2 to V4: https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html
@@ -26,27 +26,27 @@
             load: ['a11y/assistive-mml', '[tex]/noerrors']
         }
     };
-    </script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><!-- Responsive Favicon for The Carpentries --><link rel="apple-touch-icon" sizes="180x180" href="favicons/incubator/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicons/incubator/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicons/incubator/favicon-16x16.png">
-<link rel="manifest" href="favicons/incubator/site.webmanifest">
-<link rel="mask-icon" href="favicons/incubator/safari-pinned-tab.svg" color="#5bbad5">
+    </script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><!-- Responsive Favicon for The Carpentries --><link rel="apple-touch-icon" sizes="180x180" href="favicons/rsg/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/rsg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/rsg/favicon-16x16.png">
+<link rel="manifest" href="favicons/rsg/site.webmanifest">
+<link rel="mask-icon" href="favicons/rsg/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
 </head>
 <body>
-    <header id="top" class="navbar navbar-expand-md top-nav incubator"><svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewbox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path></symbol><symbol id="circle-half" viewbox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path></symbol><symbol id="moon-stars-fill" viewbox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path></symbol><symbol id="sun-fill" viewbox="0 0 16 16"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></symbol></svg><a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
+    <header id="top" class="navbar navbar-expand-md top-nav rsg"><svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewbox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path></symbol><symbol id="circle-half" viewbox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path></symbol><symbol id="moon-stars-fill" viewbox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path><path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path></symbol><symbol id="sun-fill" viewbox="0 0 16 16"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></symbol></svg><a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="incubator-logo" alt="Lesson Description" src="assets/images/incubator-logo.svg"><span class="badge text-bg-danger">
-          <abbr title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.">
+        <img id="rsg-logo" alt="This course is designed to introduce academics to project management in a light and flexible way, providing basic guidance on breaking a project into tasks to be prioritised and tracked. It also covers software sustainability, encouraging best practise like clear coding and issue management, as well as the use of DOIs and releases to enable easy citation." src="assets/images/rsg-logo.svg"><span class="badge text-bg-warning">
+          <abbr title="This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.">
             <a href="https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html" class="external-link alert-link">
-              <i aria-hidden="true" class="icon" data-feather="alert-octagon" style="border-radius: 5px"></i>
-              Pre-Alpha
+              <i aria-hidden="true" class="icon" data-feather="alert-triangle" style="border-radius: 5px"></i>
+              Alpha
             </a>
-            <span class="visually-hidden">This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.</span>
+            <span class="visually-hidden">This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.</span>
           </abbr>
         </span>
 
@@ -90,16 +90,16 @@
 </div>
     </div>
   </div>
-  <hr></header><nav class="navbar navbar-expand-xl bottom-nav incubator" aria-label="Main Navigation"><div class="container-fluid nav-container">
+</header><nav class="navbar navbar-expand-xl bottom-nav rsg" aria-label="Main Navigation"><div class="container-fluid nav-container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="menu-title">Menu</span>
     </button>
     <div class="nav-logo">
-      <img class="small-logo" alt="Lesson Description" src="assets/images/incubator-logo-sm.svg">
+      <img class="small-logo" alt="This course is designed to introduce academics to project management in a light and flexible way, providing basic guidance on breaking a project into tasks to be prioritised and tracked. It also covers software sustainability, encouraging best practise like clear coding and issue management, as well as the use of DOIs and releases to enable easy citation." src="assets/images/rsg-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Managing an Academic Software Project
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -110,7 +110,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Managing an Academic Software Project
           </span>
         </li>
         <li class="nav-item">
@@ -207,8 +207,7 @@
             </div>
 <!--/div.col -->
 
-            <hr>
-</div>
+          </div>
 <!--/div.mobile-row -->
 
           <div class="accordion accordion-flush" id="accordion-chapters-toggle">
@@ -237,7 +236,79 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="01-intro.html">1. Introduction</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="02-issues.html">2. Issues</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="03-boards.html">3. Project Management</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04-features.html">4. Release Management</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="05-quality.html">5. Writing Sustainable Code</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06-project.html">6. Managing a Mini-Project</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="99-survey.html">7. Survey</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -300,11 +371,11 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>All in One View</h1>
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">Using Markdown</a></p>
+<section id="aio-01-intro"><p>Content from <a href="01-intro.html">Introduction</a></p>
 <hr>
-<p>Last updated on 2026-05-21 |
+<p>Last updated on 2026-05-31 |
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/episodes/01-intro.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -316,8 +387,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>Why should I manage my software development?</li>
 </ul>
 </div>
 </div>
@@ -327,81 +397,747 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Explain why academic software development requires management.
+keypoints:</li>
+<li>Well-made software is easier to expand and reuse</li>
+<li>You need to produce reproducible research.</li>
+<li>You are a user of your own code.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<p>There’s a lot of guidance out there on how to develop
+<em>industrial</em> software, but developing academic software can be an
+unusual exercise.</p>
+<section><h2 class="section-heading" id="academic-software">Academic Software<a class="anchor" aria-label="anchor" href="#academic-software"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.html" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal">
+<p>It can be difficult to provide guidance for academic software because
+the category is so <em>broad</em>. Anything developed within the
+framework of academic research qualifies, and most intensive examples
+include:</p>
+<ul>
+<li>Writing drivers and firmware for cutting-edge equipment
+(e.g. exploratory submersibles)</li>
+<li>Developing and managing databases of research data (e.g. chemical
+test results)</li>
+<li>Machine-learning pipelines consuming GB of data (e.g. genome
+analysis pipelines)</li>
+<li>High-performance simulation codes that run on supercomputers
+(e.g. radiation physics modelling)</li>
+</ul>
+<p>But the majority of academic software is less intensive - collections
+of smaller scripts, for purposes like:</p>
+<ul>
+<li>Testing hypotheses on toy models developing full-scale codes</li>
+<li>Cleaning data files for analysis (e.g. anonymising survey
+results)</li>
+<li>Building pipelines from existing software</li>
+<li>Plotting figures for use in papers</li>
+</ul>
+<p>Some disciplines lean more heavily towards one end or the other, but
+there’s people working on all scales of software within all domains.</p>
+<div class="section level3">
+<h3 id="commonalities">Commonalities<a class="anchor" aria-label="anchor" href="#commonalities"></a>
+</h3>
+<p>The one thing that unites academic software is that unlike in
+traditional development, the software itself isn’t the end goal - it’s
+the <em>papers</em> it enables that are. The software is
+<strong>instrumental</strong>, just a tool to accomplish your research.
+In addition, it’s <strong>experimental</strong> - your understanding of
+what the software needs to do, or the exact data that will be available
+for it, is likely to evolve throughout the project. You aren’t just
+writing a piece of software, you’re trying to find out what software
+<em>could</em> be written (and if it would be any use!).</p>
+<p>Plus, academic software is almost always developed by a small team,
+in many cases just a single PhD student or postdoc. Even for research
+groups where multiple people work on the same code, there’s very rarely
+processes or standards that define how code should be written.</p>
+<div id="caveats" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="caveats" class="callout-inner">
+<h3 class="callout-title">Caveats</h3>
+<div class="callout-content">
+<p>In Computer Science and Engineering, you’re more likely to have
+research projects focused on the actual development of software to meet
+a clearly defined goal. However, they still take place within the
+framework of academia as a whole, and suffer from the same problems.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="issues">Issues<a class="anchor" aria-label="anchor" href="#issues"></a>
+</h2>
+<hr class="half-width">
+<p>The lack of firm goals and structured development often means that
+when you’re writing academic code the focus is entirely on how to get
+the results needed for the latest paper, without considering how this
+works in the long run. As a result, a large proportion of academic
+software is <strong>paperware</strong> - ad-hoc, poorly-written code
+made without any real plans, and a common set of issues:</p>
+<ul>
 <li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
+<strong>Unplanned:</strong> Whilst you can’t produce rigorous plans
+for exploratory and experimental code, much academic software is just
+made up on the fly without any real consideration for what it might need
+to do in future.</li>
 <li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
+<strong>Undocumented:</strong> Often, how academic software works
+and how to run it lives entirely within the heads of those who wrote it,
+often just a single researcher. It’s impossible for anyone else to know
+how it works without investing a huge amount of effort trying to
+understand it line-by-line.</li>
 <li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
+<strong>Unmaintainable:</strong> With no plan and no documentation,
+academic software becomes increasingly hard to maintain. Bugs go unfixed
+because they’d require fundamental overhauls of the code to address, and
+the code becomes a rickety stack of twigs that collapses if you poke it
+wrong - but only the developers know where the limits are.</li>
+<li>
+<strong>Unshareable:</strong> New researchers can’t just pick up and
+use the code or work on it, without a huge amount of support from the
+handful of people who <em>do</em> know how it works.</li>
+<li>
+<strong>Disposable:</strong> Fundamentally,
+<strong>paperware</strong> is disposable - it has to be thrown away
+after a couple of uses.</li>
+</ul>
+<div class="section level3">
+<h3 id="problems">Problems<a class="anchor" aria-label="anchor" href="#problems"></a>
+</h3>
+<p>These common issues end up causing serious problems for the whole of
+academia:</p>
+<ul>
+<li>
+<strong>Poor Reproducibility:</strong> Research should be
+reproducible, and if the code used to generate it is an incomprehensible
+mess, that’s just bad science. Increasingly, journals are pushing back
+on this by requiring the code for the software used in a paper to be
+shared.</li>
+<li>
+<strong>Wasted Effort:</strong> It’s tragically routine for a new
+PhD student joining a group to be handed the previous student’s work,
+spend months trying to understand it, then have to throw it away and
+start from scratch because nobody <em>actually</em> knows how it
+works.</li>
+<li>
+<strong>Limited Collaboration:</strong> Whilst sharing software
+helps the field by advancing the rate of research, and individual
+academics by generating citations, with so much software being unclear
+and requiring detailed help to use collaboration is often slow and
+difficult.</li>
+<li>
+<strong>Knowledge Decay:</strong> If running a code depends entirely
+on the knowledge in the developer’s head, it’s vulnerable to knowledge
+decay. Returning to previous projects for new collaborations becomes
+increasingly hard as the researchers involved inevitably forget the
+quirks, limits and edge-cases for their code.</li>
+<li>
+<strong>Low Bus Factor:</strong> The ‘Bus Factor’ is a software
+engineering term for “The number of people who have to be hit by a bus
+for a project to be impossible to continue”. For most academic software
+projects, the bus factor is 1. This leads to a huge amount of promising
+research projects ending up stuck in limbo or shelved entirely when that
+one person takes sick leave, runs out of time due to other commitments,
+or ends up leaving academia.</li>
+</ul>
+</div>
+</section><section><h2 class="section-heading" id="writing-sustainable-software">Writing Sustainable Software<a class="anchor" aria-label="anchor" href="#writing-sustainable-software"></a>
+</h2>
+<hr class="half-width">
+<p>We really want to avoid these problems, because <strong>better
+software</strong> makes <strong>better research</strong> - organisations
+like the <a href="https://software.ac.uk/" class="external-link">Software Sustainability
+Institute</a> exist to make this point.</p>
+<p>If you plan your project out clearly in advance, openly list your
+future goals and the limitations of your software, and write code that’s
+well-documented, consistent and designed to be easy-to-interpret, you’ll
+find it to be much more <strong>sustainable</strong>. Sustainable
+software is easier to keep maintained, to expand to cover new problems,
+and to bring in new collaborators on. The benefits to your research from
+this will rapidly outweigh the time you spend on software project
+management.</p>
+</section><section><h2 class="section-heading" id="project-management-tools">Project Management Tools<a class="anchor" aria-label="anchor" href="#project-management-tools"></a>
+</h2>
+<hr class="half-width">
+<p>Fortunately, a lot of tools exist to help manage the development of
+your academic software. You should already be familiar with Git and <a href="https://github.com" class="external-link">GitHub</a>, already a great way to keep track
+of how your code evolves and share it with others. GitHub and other
+repository hosting sites (for example, <a href="https://gitlab.com" class="external-link">GitLab</a> or <a href="https://codeberg.org/" class="external-link">Codeberg</a>) have a whole range of project
+management tools that we can use - and we’re going to start with
+them.</p>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-02-issues"><p>Content from <a href="02-issues.html">Issues</a></p>
+<hr>
+<p>Last updated on 2026-05-31 |
+
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/episodes/02-issues.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I keep track of bugs and problems?</li>
+<li>How can I communicate them to users?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Learn what issues are and how to use them.</li>
+<li>Create an issue on GitHub.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>As a piece of software is used, then bugs will inevitably come to
+light - nothing is perfect! If you work on your code with collaborators,
+or have non-developer users, it can be helpful to have a single shared
+record of all the problems people have found with the code - not only to
+keep track of them for you to work on later, but to avoid the annoyance
+of people emailing you to report a bug that you already know about!</p>
+<section><h2 class="section-heading" id="issues">Issues<a class="anchor" aria-label="anchor" href="#issues"></a>
+</h2>
+<hr class="half-width">
+<p>GitHub provides a framework (as does GitLab!) for managing bug
+reports, feature requests, and lists of future work -
+<strong>Issues</strong>.</p>
+<p>We’ll run through an example of how to create and use them. As part
+of our setup we created a repository from the
+<code>climate-analysis</code> template. It’s a mock repository for a
+code that analyses climate data files.</p>
+<div id="setup" class="callout prereq">
+<div class="callout-square">
+<i class="callout-icon" data-feather="check"></i>
+</div>
+<span class="callout-header">Prerequisite</span>
+<div id="setup" class="callout-inner">
+<h3 class="callout-title">Setup</h3>
+<div class="callout-content">
+<p>If you didn’t make a copy of it earlier, <a href="https://github.com/Southampton-RSG-Training/project-novice-template/generate" class="external-link">go
+to this link</a> and create a new repository on your account called
+<code>climate-analysis</code>. If you’ve already got a
+<code>climate-analysis</code> repository from completing earlier
+training with us, then you can use that one!</p>
+</div>
+</div>
+</div>
+<p>Go back to the home page for your <code>climate-analysis</code>
+repository, and click on the Issues tab. You should see a page listing
+the open issues on your repository, currently none.</p>
+<figure><img src="fig/02-issues/issues-none.png" alt="Issue screen" class="figure mx-auto d-block"></figure><p>If we look at the <code>climate_analysis.py</code> file in our
+repository, we can see that it’s got a comment describing work that
+needs to be done (a.k.a. a <em>“To Do note”</em>):</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a><span class="co"># </span><span class="al">TODO</span><span class="co">(smangham): Add call to process rainfall</span></span></code></pre>
+</div>
+<p>This is an easy way to record information about your code, but it’s
+not very accessible - if the code is in multiple files, you have to read
+all of them to know what the state of it is. It’s just not a very
+practical solution and makes it harder for new developers and users to
+understand your code. Instead, we’re going to create a new issue,
+raising the problem that the rainfall processing functionality isn’t yet
+working.</p>
+<figure><img src="fig/02-issues/issues-new.png" alt="Creating a new issue" class="figure mx-auto d-block"></figure><p>When you create an issue, you can add some extra details to it.
+Issues can be <strong>assigned to a specific developer</strong> - this
+can be a helpful way to know who, if anyone, is currently working to fix
+an issue (or a way to assign responsibility to someone to deal with
+it!). We’ll dodge responsibility for now.</p>
+<p>You can also <strong>label an issue</strong> to describe what type of
+thing it is. We’re going to assign this issue the label
+<strong>Bug</strong>, by clicking on the cogwheel by the Labels section
+on the right hand column, then submit the issue.</p>
+<figure><img src="fig/02-issues/issues-details.png" alt="Issue details" class="figure mx-auto d-block"></figure><p>The labels available for issues can be customised, and given a
+colour, allowing you to see at a glance from the Issues page the state
+of your code. The default labels include:</p>
+<ul>
+<li>Bug</li>
+<li>Documentation</li>
+<li>Enhancement</li>
+<li>Help Wanted</li>
+<li>Question</li>
+</ul>
+<p>The <strong>Enhancement</strong> label can be used to create issues
+that <strong>request new features</strong>, or if they’re created by a
+developer, <strong>indicate planned new features</strong>. The
+<strong>Bug</strong> label makes the code much more usable, by allowing
+users to find out if anyone has had the same problem before, and how to
+fix (or work around) it on their end. Enabling users to solve their own
+problems can save you a lot of time and stress!</p>
+<p>The <strong>Enhancement</strong> label is a great way to communicate
+your future priorities to your collaborators, and also your future self
+- it’s far too easy to leave a software project for a few months to
+write a paper, then come back and have forgotten the improvements you
+were going to make. If you have other users for your code, they can use
+the label to request new features, or changes to the way the code
+operates. It’s generally worth paying attention to these suggestions,
+especially if you spend more time developing than running the code. It
+can be very easy to end up with quirky behaviour because of off-the-cuff
+choices during development. Extra pairs of eyes can point out ways the
+code can be made more accessible, and the easier a code is to use, then
+the more widely it will be adopted and the greater its impact will
+be.</p>
+<div id="bug-or-enhancement" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="bug-or-enhancement" class="callout-inner">
+<h3 class="callout-title">Bug or Enhancement</h3>
+<div class="callout-content">
+<p>Is the issue we just added really a bug? In this case we could call
+it an <strong>Enhancement</strong> - it depends on whether we think this
+is missing functionality that <em>should</em> be there (a bug), or new
+functionality we want to add to an existing code. If it doesn’t suit
+either, we could just leave it unlabelled - labels just exist to make
+things clearer, after all.</p>
+</div>
+</div>
+</div>
+<p>Having open, publicly-visible lists of the the limitations and
+problems with your code is incredibly helpful. Even if some issues end
+up languishing unfixed for years, letting users know about them can save
+them a huge amount of work attempting to fix what turns out to be an
+unfixable problem from their end. It can also help you see at a glance
+what state your code is in, making it easier to prioritise future
+work!</p>
+<p>It also helps give users more confidence that your code is actively
+used and developed - it’s much better to see an open discussion about
+the use of a tool or library than silence.</p>
+<div id="you-are-a-user" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="you-are-a-user" class="callout-inner">
+<h3 class="callout-title">You Are A User</h3>
+<div class="callout-content">
+<p>This section focuses a lot on how issues can help communicate the
+current state of the code to users. As a developer, and possibly also
+the only user of the code too, you might be tempted to not bother with
+recording issues and features as you don’t need to communicate the
+information to anyone else.</p>
+<p>Unfortunately, human memory isn’t infallible! After spending six
+months writing your thesis, or a year working on a different sub-topic,
+it’s inevitable you’ll forget some of the plans you had and problems you
+faced. Not documenting these things can lead to you having to re-learn
+things you already put the effort into discovering before.</p>
+</div>
+</div>
+</div>
+<div id="should-old-issues-be-forgot" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?</h3>
+<div id="should-old-issues-be-forgot" class="callout-inner">
+<h3 class="callout-title">Should Old Issues Be Forgot</h3>
 <div class="callout-content">
-<p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
-</div>
+<p>Information decays very quickly. Try and remember all of the problems
+you had with a code you worked on a few years ago, for example your
+undergraduate final project. Were there any combinations of input
+settings that it couldn’t cope with, for example?</p>
 </div>
 </div>
 </div>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Output </h4>
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<p>To give some examples from real PhD projects:</p>
+<ul>
+<li>A simulation code designed to run on a supercomputer could be
+restarted if it stopped mid-way through a simulation, but not all the
+outputs would be valid after restarting.</li>
+<li>An astrophysics simulation code would take multiple times times
+longer to run <em>and</em> give less-accurate answers if the density of
+gas was raised too high.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="wontfix">Wontfix<a class="anchor" aria-label="anchor" href="#wontfix"></a>
 </h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
+<p>One interesting label is <strong>Wontfix</strong>, which indicates
+that an issue simply won’t be worked on for whatever reason - maybe the
+bug it reports is outside of the use case of the software, or the
+feature it requests simply isn’t a priority.</p>
+<p>The <strong>Lock issue</strong> and <strong>Pin issue</strong>
+buttons allow you to block future comments on an issue, and pin it to
+the top of the issues page. This can make it clear you’ve thought about
+an issue and dismissed it!</p>
+<figure><img src="fig/02-issues/issue-locked.png" alt="Lock &amp; pin issue" class="figure mx-auto d-block"></figure><div id="issue-templates" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="issue-templates" class="callout-inner">
+<h3 class="callout-title">Issue Templates</h3>
+<div class="callout-content">
+<p>Whilst many academic software projects have only user-developers, for
+others many of the users will not have any experience working on the
+code, and in some cases not even have any software development
+experience at all.</p>
+<p>Getting them to raise issues in a way that’s clear, helpful and
+provides enough information for you to act on (without going back and
+forth to extract it) can be hard. Fortunately, GitHub provides
+<strong>Issue templates</strong>. These allow you to set a template that
+anyone raising an issue is prompted to fill in. GitHub provides a range
+of default templates, but you can also write your own.</p>
+<p>If you have a project with a large number of user-submitted issues,
+consider setting up issue templates. For more information on them, <a href="https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository" class="external-link">check
+out the GitHub documentation here</a>.</p>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
+</section><section><h2 class="section-heading" id="mentions">Mentions<a class="anchor" aria-label="anchor" href="#mentions"></a>
+</h2>
+<hr class="half-width">
+<p>As lots of bugs will have similar roots, GitHub lets you
+<strong>reference one issue from another</strong>. Whilst writing the
+description of an issue, or commenting on one, if you type <kbd>#</kbd>
+you should see a list of the issues and pull requests on the repository.
+They are coloured green if they’re open, or white if they’re closed.
+Continue typing the issue number, and the list will narrow, then you can
+hit **Return to select the entry and link the two. You can also
+navigate the list with the <kbd>↑</kbd> and <kbd>↓</kbd> arrow keys.</p>
+<p>If you realise that several of your bugs have common roots, or that
+one Enhancement can’t be implemented before you’ve finished another, you
+can use the mention system to indicate which. This is a simple way to
+add much more information to your issues.</p>
+<p>You can also use the mention system to link <strong>GitHub
+accounts</strong>. Instead of <kbd>#</kbd>, typing <kbd>@</kbd> will
+bring up a list of accounts linked to the repository. Users will receive
+notifications when somebody else references them- you can use this to
+notify people when you want to check a detail with them, or let them
+know something has been fixed (much easier than writing out all the same
+information again in an email!).</p>
+<div id="linking-issues" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within
-challenge blocks?</h3>
+<div id="linking-issues" class="callout-inner">
+<h3 class="callout-title">Linking Issues</h3>
 <div class="callout-content">
+<p>We’ve documented that we’ve not implemented any rainfall processing
+in <code>climate_analysis.py</code>, but the rainfall code we’d want to
+use is completely undocumented. We need to fix that first!</p>
+<p>Create a new issue, labelled <strong>Documentation</strong>, that
+mentions your previous issue and links to your GitHub account to
+reference that you’ll be fixing this issue as it’s a pre-requisite for
+the first one.</p>
+<p>Then, check out the first issue you raised and see if anything has
+happened.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>You should get a pop-up box looking like this when you enter the
+<strong>#</strong> key: <img src="fig/02-issues/challenge-issue-dropdown.png" alt="Issue linking dropdown" class="figure"> Once you’ve selected the existing issue,
+and created your new one, you’ll get a link to the previous one: <img src="fig/02-issues/challenge-issue-link.png" alt="Issue linked" class="figure"></p>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="commits">Commits<a class="anchor" aria-label="anchor" href="#commits"></a>
+</h3>
+<p>Mentions also work in commit messages! If you reference issue numbers
+in your commits (e.g. <code>git commit -m "Fixes issue #65"</code>) then
+GitHub can <strong>automatically close issues</strong>, and will link
+the commit to the issue. This makes it easy for you to keep track of the
+changes to the code that were made in order to fix any given issue,
+should a similar bug crop up again in future.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Issues are a way of recording bugs or feature requests.</li>
+<li>Issues can be categorised by type.</li>
+<li>Issues can reference other issues, and be referenced by
+commits.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</section></section><section id="aio-03-boards"><p>Content from <a href="03-boards.html">Project Management</a></p>
+<hr>
+<p>Last updated on 2026-05-31 |
 
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/episodes/03-boards.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I manage the development of my code?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Explain how project boards work.</li>
+<li>Explain how to set up a Kanban board on GitHub.</li>
+<li>Discuss strategies for using a Kanban board.</li>
+<li>Explain what a fork is, and how to fork a repository.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Developing academic software is a project, and most projects
+(software and <em>non</em>-software alike!) consist of multiple tasks.
+Keeping track of the list of tasks you have to do, and how far you are
+through each, quickly becomes a non-trivial task itself. Without a good
+framework, it can be hard to keep track of what’s done, or what needs
+doing, and particularly hard to convey that to others or share the
+responsibilities out.</p>
+<section><h2 class="section-heading" id="project-boards">Project boards<a class="anchor" aria-label="anchor" href="#project-boards"></a>
+</h2>
+<hr class="half-width">
+<p>A <strong>project board</strong> (or <strong>kanban board</strong>,
+from the japanese for a card) is a tool for keeping track of all the
+different components of a project, and what their current status is.
+They do this using <strong>columns</strong> and <strong>cards</strong> -
+you break your project down into tasks which you write on
+<strong>cards</strong>, then move them between <strong>columns</strong>
+that describe the status of each task. Cards are usually small,
+descriptive and self-contained tasks that build on each other - think
+“Add reader for .csv files” instead of “Get input working”. Breaking a
+project down into clearly-defined tasks makes it a lot easier.</p>
+<p>In industry, they often use formal project management styles for
+their boards with specific columns and usages, but we’re going to use a
+simple, flexible format - not least because the more complicated your
+project board gets, the harder it is for you to get your collaborators
+to use it…</p>
+<div class="section level3">
+<h3 id="to-github">To GitHub<a class="anchor" aria-label="anchor" href="#to-github"></a>
+</h3>
+<p>There’s a lot of sites that host project boards. For non-software
+projects like thesis-writing or organising conferences, you might use <a href="https://trello.com" class="external-link">Trello</a>, but repository hosting sites like
+GitHub and GitLab have built-in project boards that interact with the
+other features of the site, so we’re going to use them (though other
+tools like <a href="https://www.atlassian.com/software/jira" class="external-link">Jira</a>
+also offer this functionality). This episode will use GitHub as an
+example, but GitLab has almost identical functionality.</p>
+<p>Let’s go to our <code>climate-analysis</code> repository, go to the
+<strong>Projects</strong> tab, then select click on the green
+<strong>Link a project</strong> dropdown and select <strong>New
+Project</strong>. Then, click the <strong>New Project</strong>
+button.</p>
+<figure><img src="fig/03-boards/project-new.png" alt="Link a project to a repository" class="figure mx-auto d-block"></figure><p>Then just name it <em>“Climate Analysis”</em>, and select
+<strong>Board</strong> from the list on the left. Then we’ve got our new
+<strong>Project Board</strong>! A repository can have any number of
+project boards linked to it - for example, each PhD student in a
+collaboration can have their own project board, or you can create a new
+project board for each paper you’re writing.</p>
+<figure><img src="fig/03-boards/project-new-details.png" alt="Creating project details" class="figure mx-auto d-block"></figure>
+</div>
+<div class="section level3">
+<h3 id="columns">Columns<a class="anchor" aria-label="anchor" href="#columns"></a>
+</h3>
+<p>Almost all styles of board have three ‘basic’ columns, with pretty
+self-explanatory names: - To Do - In Progress - Done</p>
+<p>GitHub’s default project boards that automatically have those columns
+- and more it <strong>automates them</strong>. If you add a pull request
+to the board, it can automatically move it to <strong>Done</strong> for
+you when you merge it.</p>
+<p>One common extra column is <strong>On hold</strong> or
+<strong>Waiting</strong>. If you have tasks that get held up by waiting
+on other people (e.g. to provide you with data or respond to your
+questions) then moving them to a separate column makes their current
+state clearer. We’re going to click on the <strong>+</strong> button
+(you might have to scroll over a bit to see it!):</p>
+<figure><img src="fig/03-boards/project-columns-new.png" alt="Adding a column, part 1" class="figure mx-auto d-block"></figure><p>Then click the <strong>New Column</strong> button, add a
+<strong>Waiting</strong> column, and drag it in-between <strong>In
+Progress</strong> and <strong>Done</strong>:</p>
+<figure><img src="fig/03-boards/project-columns-new-button.png" alt="Adding a column, part 2" class="figure mx-auto d-block"></figure><p>Now we’ve got our board fully set up:</p>
+<figure><img src="fig/03-boards/project-columns-new-done.png" alt="Board fully set up" class="figure mx-auto d-block"></figure>
+</div>
+<div class="section level3">
+<h3 id="cards">Cards<a class="anchor" aria-label="anchor" href="#cards"></a>
+</h3>
+<p>One of the advantages of using GitHub or GitLab to host your project
+board is the integration with <strong>issues</strong>. You can easily
+add issues to your project board, to keep track of how they’re
+progressing.</p>
+<p>You can create cards on the project board, or you can <strong>import
+existing issues</strong>. Scroll down to the bottom of the <strong>To
+Do</strong> column and select the <strong>+</strong> box:</p>
+<figure><img src="fig/03-boards/project-issues-add.png" alt="Where to add issues" class="figure mx-auto d-block"></figure><p>If we start typing <kbd>#</kbd>, it’ll show us a list of the
+repositories we could link, and then once we select
+<code>climate-analysis</code> it’ll list the issues on that repository.
+We can click on them one-by-one, or select <strong>Add items from
+yourname/climate-analysis</strong> and import them in a batch:</p>
+<figure><img src="fig/03-boards/project-issues-add-dropdown.png" alt="Adding existing issues" class="figure mx-auto d-block"></figure><p>We can also create a card without an issue. The repo currently
+doesn’t tell people how to use the code - it needs an example. So let’s
+create a card about it, that we can promote to a full issue later!</p>
+<p>Click <strong>+</strong> box at the bottom of the <strong>To
+Do</strong> column, delete the <code>climate-analysis</code> link, and
+start typing a title like <em>“Add example of use”</em> then hit
+<kbd>Return</kbd>:</p>
+<figure><img src="fig/03-boards/project-card-add.png" alt="Adding new cards" class="figure mx-auto d-block"></figure><p>Then double-click on the card, and you can add more detail:</p>
+<figure><img src="fig/03-boards/project-card-add-details.png" alt="Turning a card into an issue" class="figure mx-auto d-block"></figure><p>Cards can have detailed content like checklists, but that only goes
+so far. Later on you might want to convert the card to an issue so you
+can add labels or write detailed comments. Fortunately, you can click
+<strong>Convert to issue</strong> at the bottom of the expanded card,
+and selecting the repository for it.</p>
+<p>It’s often a good idea as you can use the comments section on the
+issue to write everything you tried - and, importantly, everything that
+<em>failed</em> for future reference. Sometimes, an issue you thought
+was simple and self-contained might turn out to be a bigger task than
+you thought. In that case, it’s sensible to create new cards or issues
+that reference the one they broke off from.</p>
+<p>Our project board is looking a little thin, but for an example full
+one check out the data science library <a href="https://github.com/orgs/scikit-learn/projects/12" class="external-link">Scikit
+Learn</a>.</p>
+<div id="issue-labels" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="issue-labels" class="callout-inner">
+<h3 class="callout-title">Issue Labels</h3>
+<div class="callout-content">
+<p>You can see that your issue card has a ‘bug’ label, but the one you
+made has no labels. Convert your new card to an issue, and add the
+<strong>Documentation</strong> label to it.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>We convert the card to an issue, and add a quick description, then
+click <strong>Convert to issue</strong> and select
+<code>climate-analysis</code> from the dropdown: <img src="fig/03-boards/project-card-challenge-issue.png" alt="Convert card to issue" class="figure"> Once we’ve made the issue, we can follow
+the link to see it and add the <strong>Documentation</strong> label:
+<img src="fig/03-boards/project-card-challenge-issue-label.png" alt="Select the documentation label" class="figure"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="board-details">Board Details<a class="anchor" aria-label="anchor" href="#board-details"></a>
+</h3>
+<p>By default, the board only shows the status of each issue, and who’s
+working on it. If we want to see a little bit more info (like the
+<strong>Documentation</strong> label we just applied!) we need to change
+that.</p>
+<p>Go to the <strong>View 1</strong> tab at the top, click the
+<strong>Down arrow</strong>, and select <strong>Fields</strong>:</p>
+<figure><img src="fig/03-boards/project-filter.png" alt="Filtering project board info" class="figure mx-auto d-block"></figure><p>Then we can tick the <strong>Labels</strong> field and use the
+<strong>Save changes</strong> button on the right-hand side:</p>
+<figure><img src="fig/03-boards/project-filter-save.png" alt="Saving updated filters" class="figure mx-auto d-block"></figure>
+</div>
+<div class="section level3">
+<h3 id="prioritisation">Prioritisation<a class="anchor" aria-label="anchor" href="#prioritisation"></a>
+</h3>
+<p>Once your project board has a large number of cards on it, you might
+want to begin priorisiting them. Not all tasks are going to be equally
+important, and some will require others to be completed before they can
+even be begun. Common methods of prioritisation include:</p>
+<ul>
+<li>
+<strong>Vertical position:</strong> The vertical arrangement of
+cards in a column represents their importance. High-priority bugs go to
+the top of <strong>To Do</strong>, whilst tasks that depend on others go
+beneath them. This is the easiest one to implement, though you have to
+remember to correctly place cards when you add them.</li>
+<li>
+<strong>Priority columns:</strong> Instead of a single <strong>To
+Do</strong> column, you have two or more- a <strong>To Do: Low
+Priority</strong> and a <strong>To Do: High Priority</strong>. When
+adding a card, you pick which is the appropriate column for it. You can
+even add a <strong>Triage</strong> column for newly-added issues that
+you’ve not yet had time to classify. This format works well for project
+boards devoted to bugs.</li>
+<li>
+<strong>Labels:</strong> If you convert each card into an issue,
+then you can label them with their priority- GitHub lets you create new
+labels and set their colour. <strong>Green low</strong>, <strong>orange
+medium</strong> and <strong>red high</strong> priority labels make for a
+very visually clear indication, but require the most admin as each card
+has to be an issue to receive a label.</li>
+</ul>
+<p>Making a new label is a little more involved: You have to go back to
+your repository, go to the <strong>Issues</strong> tab, and select
+<strong>Labels</strong>:</p>
+<figure><img src="fig/03-boards/project-priority-labels.png" alt="Issues button" class="figure mx-auto d-block"></figure><p>Then you can pick <strong>New label</strong> on the right, and in the
+dialog give your new label a name, description, and then pick its
+colour:</p>
+<figure><img src="fig/03-boards/project-priority-labels-new.png" alt="New label button" class="figure mx-auto d-block"></figure><div id="prioritisation-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="prioritisation-1" class="callout-inner">
+<h3 class="callout-title">Prioritisation</h3>
+<div class="callout-content">
+<p>Currently, we don’t really have enough cards to prioritise. Create a
+new card named <strong>“High priority”</strong>, and using one of the
+prioritisation schemes arrange your board so it’s the most
+important.</p>
 </div>
 </div>
 </div>
@@ -412,42 +1148,142 @@ challenge blocks?</h3>
 </button>
 <div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
+<p>We type <em>High priority</em> into the box at the bottom of the
+<strong>Todo</strong> column: <img src="fig/03-boards/project-priority-challenge.png" alt="Creating a new card" class="figure"> Then we can click and drag to move it to
+the top of the column: <img src="fig/03-boards/project-priority-challenge-top.png" alt="Prioritisation by order in column" class="figure"></p>
+<p>Or, we can convert the card to an issue as we did before, then select
+the <strong>High priority</strong> label we made earlier: <img src="fig/03-boards/project-priority-challenge-label.png" alt="Labelling a new issue" class="figure"> Then we have prioritisation by label:
+<img src="fig/03-boards/project-priority-challenge-labeled.png" alt="Labeled a new issue" class="figure"></p>
 </div>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
+<blockquote>
+<h2 id="advanced-schemes">Advanced Schemes</h2>
+<p>Whilst you can prioritise your tasks using simple schemes, more
+advanced ones exist in industry. <strong>MoSCoW</strong> (<strong>Must,
+Should, Could, Won’t</strong>) is one such scheme, which splits your
+tasks up into no more than 60% <strong>must-have</strong> features, and
+no less than 20% <strong>could-have</strong> features.</p>
+</blockquote>
+<p>If your must-have features take longer than expected to implement,
+you have a pre-made list of what you can cut to complete the project
+on-time. If you have a relatively well-defined project that needs to be
+completed to a strict deadline, consider looking into MoSCoW. {:
+.callout}</p>
+</div>
+</section><section><h2 class="section-heading" id="feature-branch-workflows">Feature-branch workflows<a class="anchor" aria-label="anchor" href="#feature-branch-workflows"></a>
 </h2>
 <hr class="half-width">
-<p>You can use standard markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><div id="callout1" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
+<p>The <strong>Feature-branch workflow</strong> is a common way of
+structuring how you develop your code using version control, that sites
+like GitHub make easy to apply.</p>
+<p>In the feature-branch workflow, you make use of the ease of creating
+new ‘branches’ with Git, parallel versions of your code that you can
+modify independently and easily merge back together.</p>
+<figure><img src="fig/03-boards/git-feature-branch.svg" alt="Feature-branch workflow" class="figure mx-auto d-block"></figure><p>You have a <code>main</code> branch, that contains the stable version
+of the code you want to share with other people, and <strong>create new
+branches to add features to your code</strong>. When you’re happy with a
+new feature, it’s fully-tested, and you want to share it with others,
+you can make a <strong>Pull Request</strong> to merge your
+<strong>feature branch</strong> in.</p>
+<p>Let’s go back to our repository and select the
+<code>rainfall_conversion.py</code> file:</p>
+<figure><img src="fig/03-boards/project-branch.png" alt="Opening a file in GitHub" class="figure mx-auto d-block"></figure><p>Now, click the <strong>Edit</strong> button (that looks like a
+pencil, on the right side of the text):</p>
+<figure><img src="fig/03-boards/project-branch-edit.png" alt="Documenting rainfall module" class="figure mx-auto d-block"></figure><p>Then, add some comments to document the code in the file. Don’t worry
+if you don’t know Python - just write anything!:</p>
+<figure><img src="fig/03-boards/project-branch-edited.png" alt="Documenting rainfall module" class="figure mx-auto d-block"></figure><p>We have to commit these changes to our repository. We’ll write a
+commit message - in this case, we can use the issue linking features we
+described earlier to connect it to issue #3. In case we want to keep
+working on this file and not just commit straight away, we’re going to
+select <strong>Create a new branch</strong>. Let’s name it after the
+issue that it solves, then click <strong>Propose changes</strong>:</p>
+<figure><img src="fig/03-boards/project-branch-edited-commit.png" alt="Documenting rainfall module" class="figure mx-auto d-block"></figure><p>Now we have a <strong>Pull Request</strong>! We can keep our stable
+version of the code on our <code>main</code> branch, and work on our
+<code>issue-document-rainfall</code> branch until we’re happy, and then
+action the pull request to merge it in. Until then, our changes don’t
+affect the version on our <code>main</code> branch that our
+collaborators are using. We can also see a summary of the changes we’ve
+made in our pull request, and even request that others review them!</p>
+<p>This makes it easy to work on multiple things at once - even if we’re
+half-way through adding a new feature on one branch, we can deal with a
+bug that a collaborator has run into by creating a new branch, fixing
+the bug in that branch, and then doing a pull request to merge the fixes
+in. If we weren’t using the feature-branch method and were working
+directly on <code>main</code>, we’d have to finish and test our work on
+adding a new feature before we could fix the bug!</p>
+<p>Plus, we can easily add new developers to our code, and test new
+features in isolation to avoid confounding effects.</p>
+<div class="section level3">
+<h3 id="best-practise">Best Practise<a class="anchor" aria-label="anchor" href="#best-practise"></a>
+</h3>
+<p>If we’re plan to use our code in publications, we can take this one
+step further and add a <code>dev</code> branch. We update the
+<code>main</code> branch whenever we publish a new paper - it contains
+all the code and methods we’ve used in it, readily accessible for anyone
+to reproduce our results.</p>
+<p>The <code>dev</code> branch is the version we keep <em>within</em>
+our collaboration, and it’s where we build up our work <em>between</em>
+papers. Instead of making new <strong>feature branches</strong> off of
+<code>main</code>, we work off of <code>dev</code>, and make pull
+requests from our finished features back into <code>dev</code> too. Then
+when we’re sure that all our features work well together, and we’re
+using the code to make published results, we make a pull request from
+<code>dev</code> back to <code>main</code>.</p>
+<p>There’s some best practise associated with this workflow:</p>
+<ul>
+<li>When adding a new feature, use a feature branch, and <strong>test
+the feature in your feature branch</strong>.</li>
+<li>It’s OK to commit broken, work-in-progress code to a feature branch
+as it’s not expected to be ‘finished’ until you submit a pull
+request.</li>
+<li>Once your feature is tested and it’s ready to merge, submit a pull
+request to <code>dev</code>.</li>
+<li>Don’t commit broken, work-in-progress code to <code>dev</code>! If
+someone wants to make a new branch, or fix a bug, they’ll be using
+<code>dev</code> as a base, so it needs to work fine.</li>
+<li>Only pull from <code>dev</code> to <code>main</code> when you think
+<code>dev</code> is stable. This is the version people will be
+downloading to verify the results from your papers.</li>
+</ul>
+<p>In industry, there’s normally strict testing criteria for when you
+merge in feature branches or merge <code>dev</code> into
+<code>main</code>. That’s a lot harder to apply in academia - in an
+experimental code, there is often no known ideal behaviour to test
+against, and you expect your code’s output to change as you alter the
+equations and assumptions.</p>
 </div>
-<span class="callout-header">Callout</span>
-<div class="callout-inner">
-<div class="callout-content">
-<p>Callout sections can highlight information.</p>
-<p>They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present “asides”: content that is
-not central to the narrative of the lesson, e.g. by providing the answer
-to a commonly-asked question.</p>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
+</section><section><h2 class="section-heading" id="forks">Forks<a class="anchor" aria-label="anchor" href="#forks"></a>
 </h2>
 <hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to
-create dynamic reports with {knitr}, so we now use mathjax to describe
-this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
+<p>‘Forking’ a repository is similar to creating a new branch, but on a
+much larger scale - you create your own copy of the <strong>whole
+repository</strong>, that is <strong>linked back to the
+original</strong>.</p>
+<p>For some large projects, or open-source projects, it’s not practical
+to have all the collaborators working on the same repository. Multiple
+different developers might both create branches with the same name,
+leading to conflicts, and developers can end up with access to dozens of
+work-in-progress branches they don’t know anything about. Others limit
+the ability of unauthorised users to push to the repository to prevent
+abuse, or accidental uploads of sensitive or restricted material. In
+these contexts, it makes more sense for <strong>every collaborator to
+have their own fork</strong>. Then, once they finish work on a feature
+branch, they can <strong>submit a pull request back to the
+original</strong>.</p>
+<p>We’re going to create a fork of an existing repository -
+<code>project-novice-demo</code>. <a href="https://github.com/Southampton-RSG-Training/project-novice-demo" class="external-link">Go
+to the repository on GitHub</a>, and click <strong>Fork</strong>. You
+can fork a repository to your own account, or any <strong>Team</strong>
+you have access to. For now, we’ll make a personal copy:</p>
+<figure><img src="fig/04-features/fork-button.png" alt="Create a fork" class="figure mx-auto d-block"></figure><p>As you can see, the fork looks and works just like a normal
+repository, but handily tells you how far you are behind the
+original.</p>
+<figure><img src="fig/04-features/fork-made.png" alt="Created fork" class="figure mx-auto d-block"></figure><p>You may also be able to use forks to create modified versions of
+existing codes that better suit your needs, depending on their software
+license. It is good practise to submit your modifications and
+improvements back to the original, though.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -456,14 +1292,13 @@ this:</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>Projects are broken-down into self-contained tasks.</li>
+<li>Tasks are represented as cards on a board.</li>
+<li>Cards are arranged to show their status.</li>
+<li>Issues can be added to project boards and labelled.</li>
+<li>Project boards can show the priority of their tasks.</li>
+<li>Forks are copies of entire repositories that can be synced up with
+the original.</li>
 </ul>
 </div>
 </div>
@@ -472,7 +1307,1182 @@ locally</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section>
+</section></section><section id="aio-04-features"><p>Content from <a href="04-features.html">Release Management</a></p>
+<hr>
+<p>Last updated on 2026-05-31 |
+
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/episodes/04-features.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I manage the release of my code?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Explain how to create stable releases for software</li>
+<li>Explain how to generate a DOI for your software</li>
+<li>Explain software licenses, and how to apply them</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Whilst managing the development of software is essential to produce
+good code, managing the <strong>distribution and release</strong> of the
+software is essential to produce <strong>impact</strong>. If your code
+can’t easily be found, used or worked on by collaborators, then the
+impact of your development work will be dramatically limited.
+Fortunately, repository hosting sites like GitHub and GitLab offer a
+wide range of tools to help.</p>
+<div id="clarify-contributions" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="clarify-contributions" class="callout-inner">
+<h3 class="callout-title">Clarify Contributions</h3>
+<div class="callout-content">
+<p>Maintaining a transparent record of who contributed what is essential
+for collaboration and recognition. Tools such as <code>git blame</code>,
+commit histories, and pull requests make it more straightforward to
+identify individual roles in software and data development. Clear
+attribution not only supports accountability within the team but also
+provides verifiable evidence of individual input, which is valuable for
+REF panels and other research assessments.</p>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="releases">Releases<a class="anchor" aria-label="anchor" href="#releases"></a>
+</h2>
+<hr class="half-width">
+<p><strong>It is vitally important to cite your software</strong>.
+Software represents a huge expenditure of research time and energy, that
+is often invisible due to lack of citation. Many large software projects
+that underpin whole research communities are run by volunteers, because
+with no citations the work of the developers behind them is invisible to
+funders and institutions.</p>
+<p>However, when software <em>is</em> cited, it’s often done poorly,
+creating a barrier to reproducibility. Often, as a software project
+evolves, the needs change- input files are expanded to take extra data,
+or output files are rearranged. Techniques are refined, and bugs are
+fixed. The end result of this is that frequently research done with
+older versions of the code <strong>cannot be reproduced with newer
+versions</strong>. Just referencing your software in your paper is
+equivalent to referencing a methods section that’s constantly being
+rewritten.</p>
+<p>Fortunately, <strong>git commits</strong> provide you with a snapshot
+of the state of your software at a single point in time. We can avoid
+these problems by specifying which commit we used for a paper. Actual
+commit IDs, though, are a bit clunky to work with and commit messages
+are normally more focused on specific code changes than the
+<em>scientific</em> state of the code. Fortunately, GitHub and GitLab
+make it easy to create <strong>releases</strong>. A release is just a
+label for a specific version of the code.</p>
+<p>If we create a new release when we arrive on the final version of the
+code we’re using in a paper, we can cite that specific version of the
+code - and anyone who wants to reproduce our work can easily get access
+to the version we used. We should make releases whenever we have a
+version of the code that’s stable and reliable enough we would be happy
+to share it with others.</p>
+<p>Releases fit into the <strong>feature-branch workflow</strong> we
+discussed earlier. In this you have two key branches,
+<strong>main</strong> and <strong>development</strong>. You create
+branches off your development branch to work on new features, then when
+they’re relatively stable, you merge them <strong>back into the
+development branch</strong>. Then, after you’re happy the development
+branch is stable and reliable, you merge it <strong>back to the main
+branch</strong>. It’s those commits to the master branch that can become
+your releases.</p>
+<div class="section level3">
+<h3 id="to-github">To GitHub<a class="anchor" aria-label="anchor" href="#to-github"></a>
+</h3>
+<p>If you go back to your <code>climate-analysis</code> repository
+homepage, you can use the <strong>Create a new release</strong>
+link:</p>
+<p><img src="fig/04-features/releases-button.png" alt="Create a release" class="figure"><img src="fig/04-features/releases-detail.png" alt="Release details" class="figure"></p>
+<p>We just need to give the release a name, description, and a
+<strong>tag</strong>:</p>
+<figure><img src="fig/04-features/releases-new.png" alt="Release details" class="figure mx-auto d-block"></figure><p>Whilst the name is often descriptive or a project-specific codename,
+the tag is usually a sequence of numbers. There are a range of
+strategies for tagging releases, but the most common is <strong>semantic
+versioning</strong>, where you tag a release in the format of
+<strong>v1.0.0</strong>. Then:</p>
+<ul>
+<li>If you fix some bugs and perform a release, <strong>increment the
+last number</strong>, e.g. <code>v1.0.0</code> to
+<code>v1.0.1</code>.</li>
+<li>If you add some new functionality <strong>in a backwards-compatible
+way</strong>, then <strong>increment the second-to-last number</strong>
+and reset the last number, e.g. <code>v1.0.1</code> to
+<code>v1.1.0</code>.</li>
+<li>If you change your code so much it’s <strong>no longer backwards
+compatible</strong> (for example, your input files require a new
+variable so it can no longer run older ones), then <strong>increment the
+first number</strong> and reset the others, e.g. <code>v1.1.0</code> to
+<code>v2.0.0</code>.</li>
+</ul>
+<p>This lets your collaborators know when they can safely update without
+breaking their ongoing work! Once we’ve decided on a tag, we can click
+<strong>Publish release</strong> and get a page with our description of
+our release, links to the git commit uses to generate it, and
+easy-to-download copies of the source code too:</p>
+<figure><img src="fig/04-features/releases-made.png" alt="Release details" class="figure mx-auto d-block"></figure><div id="limitations-of-releases" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="limitations-of-releases" class="callout-inner">
+<h3 class="callout-title">Limitations of releases</h3>
+<div class="callout-content">
+<p>If our code has dependencies like Python modules, we need to make
+sure that we include information on the specific versions of the
+dependencies too when creating a release. Python is well set-up to deal
+with this, as it can use <code>pip freeze</code> to produce a
+<code>requirements.txt</code> file with the current version of all the
+modules you’re using.</p>
+<p>For more complicated dependencies, there are a range of approaches.
+The simplest is to list the versions of your dependencies in your
+<code>README.md</code>. Depending on the <strong>software
+licences</strong> of your code and its dependencies, you may be able to
+package them in your repository.</p>
+<p>For low-level codes, you’ll also need to list <strong>the compiler
+versions and architectures used</strong>. High-performance codes can be
+<em>very</em> dependent on compiler and library versions, so simply
+listing “GCC and OpenMPI” can cause <strong>a lot of pain</strong>.
+Instead, use the output of calling the compilers with the
+<code>-v</code> or <code>--version</code> flag to make sure you’re
+getting the correct information,
+e.g. <code>gcc version 9.3.0</code>.</p>
+<p>Bear in mind, though, that you will need to keep this information up
+to date if your dependencies change. ‘Stale’ documentation can be almost
+as bad as no documentation.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="issuing-dois">Issuing DOIs<a class="anchor" aria-label="anchor" href="#issuing-dois"></a>
+</h3>
+<p>Releases make it easy for others to reference a specific version of
+your code. However, if you want to <em>track</em> those citations, and
+to add the work to your academic profile on sites like <a href="https://orcid.org/" class="external-link">ORCID</a>, you’ll want a <strong>digital
+object identifier (DOI)</strong> for your release. Many Universities
+have internal systems for issuing DOIs for software, managed by
+libraries or research output administrative teams. Alternatively, <a href="https://zenodo.org/" class="external-link">Zenodo</a> allows you to upload datasets,
+presentations or other files to get a cached version with a specific
+DOI, and automatically links the DOIs to your ORCID account.</p>
+<p>Zenodo has great integration with GitHub, allowing you to
+<strong>automatically generate a DOI for any new releases on a
+repository</strong>. GitHub provide a very clear guide on how to do
+this: <a href="https://guides.github.com/activities/citable-code/" class="external-link">Citable
+code</a>. Note, however, that Zenodo can only issue DOIs for
+<strong>publicly-visible repositories</strong>. This can be a problem if
+you need to keep your code private due to industrial collaborations.</p>
+<p>Zenodo offers a ‘sandbox’, where you can test the process for
+creating a new DOI (as creating a DOI on their proper website is
+irreversible!). We’ll use the sandbox at <a href="https://sandbox.zenodo.org" class="external-link">sandbox.zenodo.org</a> to create a DOI
+for our <code>climate-analysis</code> repository by registering it via
+Zenodo’s GitHub link and creating a new release on GitHub.</p>
+<p>First, making sure we’re on <a href="https://sandbox.zenodo.org" class="external-link">sandbox.zenodo.org</a>, we need to
+sign up using our GitHub account - using <strong>Log in</strong> or
+<strong>Sign up</strong>, and and selecting <strong>GitHub</strong>.
+<img src="fig/04-features/zenodo/log-in.png" alt="Log-in button" class="figure"><img src="fig/04-features/zenodo/log-in-github.png" alt="Log-in via GitHub" class="figure"></p>
+<p>Once you’ve logged in, selecting <strong>GitHub</strong> from the
+drop-down menu opens a list of your repositories, and we can toggle them
+to ‘on’ to begin tracking releases on them. <img src="fig/04-features/zenodo/linked.png" alt="Select GitHub" class="figure"><img src="fig/04-features/zenodo/enabled.png" alt="Enable your repository" class="figure"></p>
+<p>Zenodo won’t retroactively generate DOIs for releases, so we need to
+<strong>head back to GitHub</strong>, and create a new release, then go
+back to <strong>Zenodo</strong> and click on our repository to see the
+status of our upload. <img src="fig/04-features/zenodo/github.png" alt="Create a release" class="figure"><img src="fig/04-features/zenodo/release-working.png" alt="Release processing" class="figure"></p>
+<p>Depending on how busy Zenodo is, this can take anything from minutes
+to hours to process. Once it’s done, though, you get a DOI, which we can
+then edit into the message for our release. <img src="fig/04-features/zenodo/release-finished.png" alt="Release processed" class="figure"><img src="fig/04-features/zenodo/github-edited.png" alt="Editing a release" class="figure"></p>
+<div id="chickens-and-eggs" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="chickens-and-eggs" class="callout-inner">
+<h3 class="callout-title">Chickens and Eggs</h3>
+<div class="callout-content">
+<p>There’s one slightly annoying quirk with using Zenodo to generate
+DOIs; you only get the DOI <em>after</em> creating the Release for a
+commit.</p>
+<p>This means you can’t put the DOI for a commit in the
+<code>README.md</code> or a <code>CITATION.cff</code> file <em>for that
+commit</em>. Unfortunately, there’s not really a good way around this! A
+work-in-progress project called <a href="https://github.com/zenodraft/zenodraft" class="external-link">Zenodraft</a> is aiming to
+provide a solution by pre-reserving DOIs, and Zenodo say they are
+looking into the issue further.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="citation-files">Citation Files<a class="anchor" aria-label="anchor" href="#citation-files"></a>
+</h3>
+<p>You’ll have noticed the Zenodo upload gives you a template
+<code>CITATION.cff</code> file. This is a handy way of letting people
+who use your code know how you’d like to be cited. <a href="https://citation-file-format.github.io" class="external-link">There’s more detail on
+these files here</a>, but one of the most important features is the
+ability to add your <a href="https://orcid.org" class="external-link">ORCID</a>, to easily
+link you to your code in a way that’s not dependent upon your university
+email address. You can also request users cite multiple DOIs - for
+example, the DOI of a commit, and one of a release paper.</p>
+<p>GitHub now also supports <code>CITATION.cff</code> files. A repo with
+one will have a button informing users of how to cite it, and providing
+a pre-made BibTex citation.</p>
+<div id="adding-a-citation.cff" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="adding-a-citation.cff" class="callout-inner">
+<h3 class="callout-title">Adding a CITATION.cff</h3>
+<div class="callout-content">
+<p>Using the template from Zenodo, add a <code>CITATION.cff</code> file
+to your repository, then push it to GitHub.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Contents of <code>CITATION.cff</code>:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">YAML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode yaml" tabindex="0"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a><span class="fu">cff-version</span><span class="kw">:</span><span class="at"> </span><span class="fl">1.1.0</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1" aria-label="code-block-1-2"></a><span class="fu">message</span><span class="kw">:</span><span class="at"> </span><span class="st">"If you use this software, please cite it as below."</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1" aria-label="code-block-1-3"></a><span class="fu">authors</span><span class="kw">:</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1" aria-label="code-block-1-4"></a><span class="kw">-</span><span class="at"> </span><span class="fu">family-names</span><span class="kw">:</span><span class="at"> Mangham</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1" aria-label="code-block-1-5"></a><span class="at">  </span><span class="fu">given-names</span><span class="kw">:</span><span class="at"> Sam</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1" aria-label="code-block-1-6"></a><span class="at">  </span><span class="fu">orcid</span><span class="kw">:</span><span class="at"> https://orcid.org/0000-0001-7511-5652</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1" aria-label="code-block-1-7"></a><span class="kw">-</span><span class="at"> </span><span class="fu">family-names</span><span class="kw">:</span><span class="at"> Crouch</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1" aria-label="code-block-1-8"></a><span class="at">  </span><span class="fu">given-names</span><span class="kw">:</span><span class="at"> Steven</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1" aria-label="code-block-1-9"></a><span class="at">  </span><span class="fu">orcid</span><span class="kw">:</span><span class="at"> https://orcid.org/0000-0001-8985-6814</span></span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1" aria-label="code-block-1-10"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> Climate Analysis Code</span></span>
+<span id="cb1-11"><a href="#cb1-11" tabindex="-1" aria-label="code-block-1-11"></a><span class="fu">version</span><span class="kw">:</span><span class="at"> </span><span class="fl">1.1</span></span>
+<span id="cb1-12"><a href="#cb1-12" tabindex="-1" aria-label="code-block-1-12"></a><span class="fu">doi</span><span class="kw">:</span><span class="at"> 10.5072/zenodo.896790</span></span>
+<span id="cb1-13"><a href="#cb1-13" tabindex="-1" aria-label="code-block-1-13"></a><span class="fu">date-released</span><span class="kw">:</span><span class="at"> 2021-08-26</span></span></code></pre>
+</div>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="op">&gt;</span> git <span class="ex">add</span> CITATION.cff</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1" aria-label="code-block-2-2"></a><span class="op">&gt;</span> git <span class="ex">commit</span> <span class="at">-m</span> <span class="st">"Added citation instructions"</span></span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>[master 88ed80d] Added citation instructions
+1 file changed, 13 insertions(+)
+create mode 100644 CITATION.cff</code></pre>
+</div>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1" aria-label="code-block-4-1"></a><span class="op">&gt;</span> git <span class="ex">push</span></span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 510 bytes | 510.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:smangham/climate-analysis.git
+   d596ad4..88ed80d  master -&gt; master</code></pre>
+</div>
+<p>Now, when we check on GitHub, there’s a button that provides a BibTex
+(or APA) format citation for your code. <img src="fig/04-features/zenodo/github-cite.png" alt="Citation instructions" class="figure"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="software-licensing">Software licensing<a class="anchor" aria-label="anchor" href="#software-licensing"></a>
+</h2>
+<hr class="half-width">
+<p>Software licensing can be a whole topic in itself, so we’ll just
+summarise here. Your institution’s Intellectual Property (IP) team will
+be able to offer specific guidance that fits the way your institution
+thinks about software.</p>
+<p>In IP law, software is considered a creative work of literature, so
+any code you write automatically has copyright protection applied. This
+copyright will usually belong to the institution that employs you, but
+this may be different for PhD students. If you need to check, this
+should be included in your employment / studentship contract or talk to
+your university’s IP team.</p>
+<p>Since software is automatically under copyright, without a license no
+one may:</p>
+<ul>
+<li>copy it</li>
+<li>distribute it</li>
+<li>modify it</li>
+<li>extend it</li>
+<li>use it (unclear - this has not been properly tested in court
+yet)</li>
+</ul>
+<p>Fundamentally there are two kinds of license, <strong>Open
+Source</strong> licenses and <strong>Proprietary licenses</strong>,
+which serve slightly different purposes.</p>
+<p><strong>Proprietary licenses</strong> are designed to pass on limited
+rights to end users, and are most suitable if you want to commercialise
+your software. They tend to be customised to suit the requirements of
+the software and the institution to which it belongs - again your
+institutions IP team will be able to help here.</p>
+<p><strong>Open Source</strong> licenses are designed more to protect
+the rights of end users - they specifically grant permission to make
+modifications and redistribute the software to others. The website
+<strong>Choose A License</strong> provides recommendations and a simple
+summary of some of the most common open source licenses.</p>
+<p>Within the open source licenses, there are two categories,
+<strong>copyleft</strong> and <strong>permissive</strong>. The
+permissive licenses such as MIT and the multiple variants of the BSD
+license are designed to give maximum freedom to the end users of
+software. These licenses allow the end user to do almost anything with
+the source code.</p>
+<p>The copyleft licences in the GPL still give a lot of freedom to the
+end users, but any code that they write based on GPLed code must also be
+licensed under the same license. This gives the developer assurance that
+anyone building on their code is also contributing back to the
+community. It’s actually a little more complicated than this, and the
+variants all have slightly different conditions and applicability, but
+this is the core of the license.</p>
+<p>Which of these types of license you prefer is up to you and those you
+develop code with. If you want more information, or help choosing a
+license, the <a href="https://choosealicense.com" class="external-link">Choose An Open-Source
+License (linked here)</a> site can help.</p>
+<div id="track-and-evidence-software-reuse" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="track-and-evidence-software-reuse" class="callout-inner">
+<h3 class="callout-title">Track and Evidence Software Reuse</h3>
+<div class="callout-content">
+<p>Once software or data have been released, tracking their reuse
+provides valuable insight into impact.</p>
+<p>Monitoring metrics such as GitHub stars, forks, downloads, or formal
+citations can demonstrate how widely a tool is being adopted. These
+indicators contribute quantitative evidence for impact case studies and
+funding reports. Integrating reuse tracking into project management
+processes helps maintain an overview of how research outputs are used
+beyond the original project.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Releases are stable versions of the code.</li>
+<li>Zenodo can automatically generate DOIs for releases.</li>
+<li>Software licenses can restrict what others can do with your
+code.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-05-quality"><p>Content from <a href="05-quality.html">Writing Sustainable Code</a></p>
+<hr>
+<p>Last updated on 2026-05-31 |
+
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/episodes/05-quality.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do I write code to make future development easier?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Understand the benefits of making your code more readable.</li>
+<li>Rename variables and functions to be more descriptive.</li>
+<li>Understand how to use comments to describe the code.</li>
+<li>Use docstrings to describe the inputs and outputs of functions.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Now we’ve covered the process around developing and releasing our
+software. However, one key part of software development we haven’t
+touched on yet is <strong>the code itself</strong>. No matter how well
+we manage our development, if we don’t write
+<strong>sustainable</strong> code, then our project will suffer.</p>
+<p>One major problem in software development is <strong>technical
+debt</strong> - a term for when decisions made early-on in the project
+(often made on the fly without much thought) end up causing long-term
+problems, and require a major expenditure of effort to fix (or to
+<em>pay off</em> the technical debt). If you accrue too much technical
+debt without fixing it, the whole project can become unsustainable, and
+the effort required to fix them becomes so large you have to throw the
+project away and start from scratch.</p>
+<p>So when developing academic software, we need to make sure it’s
+<strong>sustainable</strong>. One of the key factors for this is keeping
+your code <strong>readable</strong> and <strong>maintainable</strong>.
+We want to minimise the amount of effort required for you (or others) to
+read your code, understand what’s going on, and make changes to it.</p>
+<p>In this episode, we’re going to use <strong>python</strong> as an
+example language. The kind of principles we discuss will be applicable
+to any language!</p>
+<section><h2 class="section-heading" id="naming-things">Naming Things<a class="anchor" aria-label="anchor" href="#naming-things"></a>
+</h2>
+<hr class="half-width">
+<p>Good names are one of the key requirements to make a code easy to
+maintain. Take a look at the <code>temp_conversion.py</code> file in our
+<code>climate-analysis</code> repository:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a><span class="kw">def</span> Fc(x):</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1" aria-label="code-block-1-2"></a>    Y <span class="op">=</span> (x <span class="op">-</span> <span class="dv">32</span>) <span class="op">*</span> (<span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1" aria-label="code-block-1-3"></a>    <span class="cf">return</span> Y</span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1" aria-label="code-block-1-4"></a></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1" aria-label="code-block-1-5"></a><span class="kw">def</span> FK(x):</span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1" aria-label="code-block-1-6"></a>    y <span class="op">=</span> Fc(x)</span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1" aria-label="code-block-1-7"></a>    z <span class="op">=</span> y <span class="op">+</span> <span class="fl">273.15</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1" aria-label="code-block-1-8"></a>    <span class="cf">return</span> z</span></code></pre>
+</div>
+<p>What do these functions actually do? From the context of the filename
+(<code>temp_conversion.py</code>) we can make a good guess that they’re
+probably functions for converting temperatures in Fahrenheit into
+Celsius and Kelvin, but it’s not especially clear. When you see these
+functions referred to in <em>other</em> files, though, their behaviour’s
+a lot less clear. Consider seeing this pop up in another file:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a>dxs <span class="op">=</span> [Fc(<span class="bu">str</span>(x)) <span class="op">-</span> Fc(ta) <span class="cf">for</span> x <span class="kw">in</span> f.readlines()]</span></code></pre>
+</div>
+<p>It just isn’t immediately clear. The more complex your code gets, the
+harder it becomes to figure out what it does from context clues and
+scattered comments and the harder it gets to maintain it.</p>
+<p>It’s much easier to upkeep a code where what happens on each line is
+clear <strong>on that line</strong> (it’s especially easier for people
+who didn’t write it in the first place and have had it passed on to
+them!). We want to make our functions a little clearer, and there’s some
+common naming recommendations:</p>
+<ul>
+<li>Variables are usually lower case (e.g. <code>speed</code>,
+<code>participant_age</code>)</li>
+<li>Classes are typically capitalised <em>nouns</em>
+(e.g. <code>Molecule</code>, <code>BlackHole</code>,
+<code>DNASequence</code>)</li>
+<li>Functions are typically <em>verbs</em>
+(e.g. <code>calculateOrbit</code>,
+<code>splice_gene_sequence</code>)</li>
+</ul>
+<p>We’ll rewrite the <code>Fc</code> function to follow those
+guidelines:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" tabindex="-1" aria-label="code-block-3-1"></a><span class="kw">def</span> convert_fahr_to_celsius(fahr):</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1" aria-label="code-block-3-2"></a>    celsius <span class="op">=</span> (fahr <span class="op">-</span> <span class="dv">32</span>) <span class="op">*</span> (<span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1" aria-label="code-block-3-3"></a>    <span class="cf">return</span> celsius</span></code></pre>
+</div>
+<p>Whilst these names are a lot longer than <code>x</code> and
+<code>Fc</code>, text editors like <strong>Visual Studio Code</strong>
+offers code completion. You can start typing <strong>c</strong> and be
+prompted with your function <code>convert_fahr_to_celsius</code>. Not
+only does this mean it’s no more difficult or time-consuming to write
+easily-maintainable code, it also helps avoid you making typos! If your
+variables are <code>f</code>, <code>g</code> and <code>v</code>, a
+single mispressed key can cause you a world of trouble.</p>
+<div id="fixing-functions" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="fixing-functions" class="callout-inner">
+<h3 class="callout-title">Fixing Functions</h3>
+<div class="callout-content">
+<p>Now we’ve re-written <code>Fc</code> to
+<code>convert_fahr_to_celsius</code> we need to rewrite <code>FK</code>
+to match. Either in a text editor, or on GitHub, fix <code>FK</code> to
+match <code>convert_fahr_to_celsius</code>.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>We want to keep the style and naming internally consistent as best we
+can, so the new <code>FK</code> should look something like:</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" tabindex="-1" aria-label="code-block-4-1"></a><span class="kw">def</span> convert_fahr_to_kelvin(fahr):</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1" aria-label="code-block-4-2"></a>    celsius <span class="op">=</span> convert_fahr_to_celsius(fahr)</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1" aria-label="code-block-4-3"></a>    kelvin <span class="op">=</span> celsius <span class="op">+</span> <span class="fl">273.15</span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1" aria-label="code-block-4-4"></a>    <span class="cf">return</span> kelvin</span></code></pre>
+</div>
+<p>Now every single line of the function is explicit about what it does
+- you don’t need to make any guesses!</p>
+</div>
+</div>
+</div>
+</div>
+<div id="naming-styles" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="naming-styles" class="callout-inner">
+<h3 class="callout-title">Naming Styles</h3>
+<div class="callout-content">
+<p>There’s two main styles of naming multi-word variables,
+<strong>camelCase</strong> and <strong>snake_case</strong>. Some
+languages have common <em>standards</em> which recommend which to use,
+but in general it’s good to be consistent whichever you pick!</p>
+<p>Python recommends <strong>capitalised CamelCase</strong> for classes,
+<strong>lower-case snake_case()</strong> for functions and variables,
+and <strong>upper-case SNAKE_CASE</strong> for constants.</p>
+</div>
+</div>
+</div>
+<div id="single-character-names" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="single-character-names" class="callout-inner">
+<h3 class="callout-title">Single-Character Names</h3>
+<div class="callout-content">
+<p>You might think that some single-character names are perfectly clear
+- for example, <code>C</code> obviously refers to the speed of light!
+Unfortunately, not everyone will agree. Any mathematical libraries you
+use are likely to have their own interpretation of what each letter
+should stand for that are likely to be at odds with your field’s
+definitions. If so, this can lead to some very inconvenient errors to
+debug.</p>
+<p>In general, it’s best to give everything a name at least three
+characters long. You might use a prefix, e.g. <code>CONST_C</code> for
+‘constant’, or a more verbose description,
+e.g. <code>V_LIGHT</code>.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="defensive-programming">Defensive Programming<a class="anchor" aria-label="anchor" href="#defensive-programming"></a>
+</h2>
+<hr class="half-width">
+<p>Generally, when we write code we have a pretty solid idea of how
+we’re expecting to use it - and, importantly, its limitations. We know
+the input file formats we’re expecting, the range of physical parameters
+we can simulate, that kind of thing. But it’s very easy to accidentally
+push code beyond its limits. Then, it can end up simply giving answers
+that don’t make sense, or worse, are <em>plausible but wrong</em>. We
+call problems like this <strong>silent errors</strong>, and you tend to
+only find out about then when it’s too late - they’ve already quietly
+ruined weeks of work.</p>
+<p>Imagine if we were using our code to calculate the average
+temperature in a series of climate data files, but it turns out
+<em>one</em> of them has missing temperature readings for some dates.
+Since <code>0</code> is a valid temperature, whoever made the file
+indicated missing readings with an impossible temperature value of
+<code>-999</code>. Our functions will happily convert that to
+<strong>-572.7 degrees Celsius</strong>, and drag down our average
+without telling us!</p>
+<p>Instead, we’ll make sure that if our code tries to do something we
+never intended it to do, it stops, and lets the user know:</p>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a><span class="kw">def</span> convert_fahr_to_celsius(fahr):</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1" aria-label="code-block-5-2"></a>    celsius <span class="op">=</span> (fahr <span class="op">-</span> <span class="dv">32</span>) <span class="op">*</span> (<span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1" aria-label="code-block-5-3"></a>    <span class="cf">if</span> celsius <span class="op">&lt;</span> <span class="op">-</span><span class="fl">273.15</span>:</span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1" aria-label="code-block-5-4"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(</span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1" aria-label="code-block-5-5"></a>            <span class="ss">f"Trying to convert impossible temperature: </span><span class="sc">{</span>fahr<span class="sc">}</span><span class="ss">F"</span></span>
+<span id="cb5-6"><a href="#cb5-6" tabindex="-1" aria-label="code-block-5-6"></a>        )</span>
+<span id="cb5-7"><a href="#cb5-7" tabindex="-1" aria-label="code-block-5-7"></a>    <span class="cf">return</span> celsius</span></code></pre>
+</div>
+<p>It’s easy to go overboard on defensive programming, but making
+incorrect assumptions about the values your functions will be given can
+be costly. Multiple space missions like <a href="https://en.wikipedia.org/wiki/Ariane_flight_V88" class="external-link">the ESA’s first
+Ariane 5 rocket</a>, <a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter" class="external-link">NASA’s Mars
+Climate Orbiter</a> and the <a href="https://en.wikipedia.org/wiki/Hitomi_(satellite)" class="external-link">Japanese Hitomi
+X-ray telescope</a> have been destroyed by failing to check whether or
+not a value makes sense.</p>
+</section><section><h2 class="section-heading" id="documenting-your-code">Documenting Your Code<a class="anchor" aria-label="anchor" href="#documenting-your-code"></a>
+</h2>
+<hr class="half-width">
+<p>If your code has descriptive variables and function names, then it
+should go a long way towards making it clear what it does. But
+unfortunately, codes of any real size rapidly become too complicated to
+understand just by reading the code! Even if your code doesn’t
+<em>start</em> that large, <strong>it will almost certainly end up that
+way</strong>. So it’s a good idea to write clear documentation from the
+start, to make sure you don’t have to go back and do it later.</p>
+<div class="section level3">
+<h3 id="comments">Comments<a class="anchor" aria-label="anchor" href="#comments"></a>
+</h3>
+<p>If you’ve used clear variable names, then the actual logic and
+processes of the code should be readable from the text. So with
+comments, we can describe things in more detail - explaining what’s
+going on at a high level, or things that aren’t immediately obvious.</p>
+<p>In Python, you can comment your code by starting a line with a
+<code>#</code> (other languages use a different comment character, like
+<code>%</code>, <code>!</code> or <code>//</code>):</p>
+<div class="codewrapper sourceCode" id="cb6">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" tabindex="-1" aria-label="code-block-6-1"></a><span class="kw">def</span> convert_fahr_to_celsius(fahr):</span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1" aria-label="code-block-6-2"></a>    celsius <span class="op">=</span> (fahr <span class="op">+</span> <span class="dv">32</span>) <span class="op">*</span> (<span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1" aria-label="code-block-6-3"></a>    <span class="cf">if</span> celsius <span class="op">&lt;</span> <span class="op">-</span><span class="fl">273.15</span>:</span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1" aria-label="code-block-6-4"></a>        <span class="co"># If temperature is below absolute zero, throw an error</span></span>
+<span id="cb6-5"><a href="#cb6-5" tabindex="-1" aria-label="code-block-6-5"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(</span>
+<span id="cb6-6"><a href="#cb6-6" tabindex="-1" aria-label="code-block-6-6"></a>            <span class="ss">f"Trying to convert impossible temperature: </span><span class="sc">{</span>fahr<span class="sc">}</span><span class="ss">F"</span></span>
+<span id="cb6-7"><a href="#cb6-7" tabindex="-1" aria-label="code-block-6-7"></a>        )</span>
+<span id="cb6-8"><a href="#cb6-8" tabindex="-1" aria-label="code-block-6-8"></a>    <span class="cf">return</span> celsius</span></code></pre>
+</div>
+<p>You can also add these at the end of lines, e.g.:</p>
+<div class="codewrapper sourceCode" id="cb7">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" tabindex="-1" aria-label="code-block-7-1"></a><span class="kw">def</span> convert_fahr_to_celsius(fahr):</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1" aria-label="code-block-7-2"></a>    celsius <span class="op">=</span> (fahr <span class="op">+</span> <span class="dv">32</span>) <span class="op">*</span> (<span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1" aria-label="code-block-7-3"></a>    <span class="cf">if</span> celsius <span class="op">&lt;</span> <span class="op">-</span><span class="fl">273.15</span>:  <span class="co"># If temperature is below absolute zero, throw an error</span></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1" aria-label="code-block-7-4"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(</span>
+<span id="cb7-5"><a href="#cb7-5" tabindex="-1" aria-label="code-block-7-5"></a>            <span class="ss">f"Trying to convert impossible temperature: </span><span class="sc">{</span>fahr<span class="sc">}</span><span class="ss">F"</span></span>
+<span id="cb7-6"><a href="#cb7-6" tabindex="-1" aria-label="code-block-7-6"></a>        )</span>
+<span id="cb7-7"><a href="#cb7-7" tabindex="-1" aria-label="code-block-7-7"></a>    <span class="cf">return</span> celsius</span></code></pre>
+</div>
+<p>A good rule of thumb is to assume that someone will
+<strong>always</strong> read your code at a later date, and this
+includes a future version of yourself. It can be easy to forget why you
+did something a particular way in six months time.</p>
+<p>They should be able to understand a single function or method from
+its code and its comments, and shouldn’t have to look elsewhere in the
+code for clarification. It can be easy to get lost in code, and others
+will not have the same knowledge of our project or code as we do.</p>
+<p>The kind of things that need to be commented are:</p>
+<ul>
+<li>Why certain design or implementation decisions were adopted,
+especially in cases where the decision may seem counter-intuitive</li>
+<li>The names of any particular equations you’ve implemented or
+algorithms you’ve used</li>
+<li>The format of input or output files the code uses</li>
+</ul>
+<p>There are some restrictions. Comments that simply restate what the
+code does are redundant, and comments have to be accurate, as an
+incorrect comment is more confusing than no comment at all.</p>
+</div>
+<div class="section level3">
+<h3 id="docstrings-type-hints">Docstrings &amp; Type Hints<a class="anchor" aria-label="anchor" href="#docstrings-type-hints"></a>
+</h3>
+<p>For your functions, it can be incredibly helpful to have this
+documentation on what they do in a structured way. The key properties of
+a function are what it does, what arguments it takes, and what values it
+returns. If you have this information everywhere, then when you’re
+scanning through the code and come across a function, you can just hop
+over and check out the summary and you’ll know exactly what’s going
+on.</p>
+<p>We’re going to look at an example of how to do this in Python. If the
+first thing in a function is a string that isn’t assigned to a variable,
+that string is attached to the function as its documentation. We’ll do
+this for our <code>convert_fahr_to_celsius</code> function (in this
+example, using the <a href="https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html" class="external-link">Sphinx
+docstring format, which we’ll get to later</a>). We’ll also add
+<strong>type hints</strong>, optional extra detail on what type of data
+each variable is:</p>
+<div class="codewrapper sourceCode" id="cb8">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" tabindex="-1" aria-label="code-block-8-1"></a><span class="kw">def</span> convert_fahr_to_celsius(fahr: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1" aria-label="code-block-8-2"></a>    <span class="co">"""</span></span>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1" aria-label="code-block-8-3"></a><span class="co">    Given a temperature in Fahrenheit, converts it to Celsius</span></span>
+<span id="cb8-4"><a href="#cb8-4" tabindex="-1" aria-label="code-block-8-4"></a></span>
+<span id="cb8-5"><a href="#cb8-5" tabindex="-1" aria-label="code-block-8-5"></a><span class="co">    :param fahr: The temperature in Fahrenheit</span></span>
+<span id="cb8-6"><a href="#cb8-6" tabindex="-1" aria-label="code-block-8-6"></a><span class="co">    :raises ValueError: If the temperature is below absolute zero</span></span>
+<span id="cb8-7"><a href="#cb8-7" tabindex="-1" aria-label="code-block-8-7"></a><span class="co">    :return: The temperature in Celsius</span></span>
+<span id="cb8-8"><a href="#cb8-8" tabindex="-1" aria-label="code-block-8-8"></a><span class="co">    """</span></span>
+<span id="cb8-9"><a href="#cb8-9" tabindex="-1" aria-label="code-block-8-9"></a>    celsius: <span class="bu">float</span> <span class="op">=</span> (fahr <span class="op">+</span> <span class="dv">32</span>) <span class="op">*</span> (<span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" tabindex="-1" aria-label="code-block-8-10"></a>    <span class="cf">if</span> celsius <span class="op">&lt;</span> <span class="op">-</span><span class="fl">273.15</span>:</span>
+<span id="cb8-11"><a href="#cb8-11" tabindex="-1" aria-label="code-block-8-11"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(</span>
+<span id="cb8-12"><a href="#cb8-12" tabindex="-1" aria-label="code-block-8-12"></a>            <span class="ss">f"Trying to convert impossible temperature: </span><span class="sc">{</span>fahr<span class="sc">}</span><span class="ss">F"</span></span>
+<span id="cb8-13"><a href="#cb8-13" tabindex="-1" aria-label="code-block-8-13"></a>        )</span>
+<span id="cb8-14"><a href="#cb8-14" tabindex="-1" aria-label="code-block-8-14"></a>    <span class="cf">return</span> celsius</span></code></pre>
+</div>
+<p>This documentation lists the input variables (as
+<code>:param VARIABLE_NAME: Description</code>), what the function
+returns (<code>:return: Description</code>), and any errors it might
+raise too (<code>:raises ErrorType: Description</code>). Along with a
+helpful description of what the function does, this information can act
+as a <em>contract</em> for readers to understand what to expect in terms
+of behaviour when using the function, as well as how to use it. We can
+also detail the type of variable the arguments are expected to be with
+hints like <code>: int</code> or <code>: str</code>, as well as
+describing what the function should output
+(e.g. <code>-&gt; float</code>).</p>
+<p>This kinds of clear, firm description of a function provides a solid
+basis for future development. If you write a function that can only take
+positive numbers, but don’t document that, then someone else might try
+and feed it negative numbers without realising that’s not possible.
+Then, they’ll be faced with a crash at best, or another <strong>silent
+failure</strong>.</p>
+<p>These types of comments are called <em>docstrings</em> in Python. We
+don’t need to use triple quotes when we write one, but if we do, we can
+break the string across multiple lines.</p>
+<div id="writing-docstrings" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="writing-docstrings" class="callout-inner">
+<h3 class="callout-title">Writing Docstrings</h3>
+<div class="callout-content">
+<p>Now we’ve written a docstring for
+<code>convert_fahr_to_celsius</code> we need to write one for
+<code>convert_fahr_to_kelvin</code> to match, again either on GitHub or
+in a text editor.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>As before, we’ll use the same format to make the code easier to
+read:</p>
+<div class="codewrapper sourceCode" id="cb9">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" tabindex="-1" aria-label="code-block-9-1"></a><span class="kw">def</span> convert_fahr_to_kelvin(fahr: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1" aria-label="code-block-9-2"></a>    <span class="co">"""</span></span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1" aria-label="code-block-9-3"></a><span class="co">    Given a temperature in Fahrenheit, converts it to Kelvin</span></span>
+<span id="cb9-4"><a href="#cb9-4" tabindex="-1" aria-label="code-block-9-4"></a></span>
+<span id="cb9-5"><a href="#cb9-5" tabindex="-1" aria-label="code-block-9-5"></a><span class="co">    :param fahr: The temperature in Fahrenheit</span></span>
+<span id="cb9-6"><a href="#cb9-6" tabindex="-1" aria-label="code-block-9-6"></a><span class="co">    :return: The temperature in Kelvin</span></span>
+<span id="cb9-7"><a href="#cb9-7" tabindex="-1" aria-label="code-block-9-7"></a><span class="co">    """</span></span>
+<span id="cb9-8"><a href="#cb9-8" tabindex="-1" aria-label="code-block-9-8"></a>    celsius: <span class="bu">float</span> <span class="op">=</span> convert_fahr_to_celsius(fahr)</span>
+<span id="cb9-9"><a href="#cb9-9" tabindex="-1" aria-label="code-block-9-9"></a>    kelvin: <span class="bu">float</span> <span class="op">=</span> celsius <span class="op">+</span> <span class="fl">273.15</span></span>
+<span id="cb9-10"><a href="#cb9-10" tabindex="-1" aria-label="code-block-9-10"></a>    <span class="cf">return</span> kelvin</span></code></pre>
+</div>
+<p>In this example the comments for this function are longer than the
+code, but once you have a function that’s a hundred or more lines long
+the value of a clear summary quickly increases!</p>
+</div>
+</div>
+</div>
+</div>
+<p>You can also write docstrings for entire Python modules. It’s useful
+to have a brief description of a module’s purpose, and a list of the
+classes and functions within it. It’s a bit redundant for our small
+example, but for a large project it can be a real timesaver:</p>
+<div class="codewrapper sourceCode" id="cb10">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" tabindex="-1" aria-label="code-block-10-1"></a><span class="co">"""</span></span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1" aria-label="code-block-10-2"></a><span class="co">A module for converting temperature from Imperial to Metric units.</span></span>
+<span id="cb10-3"><a href="#cb10-3" tabindex="-1" aria-label="code-block-10-3"></a><span class="co">Will throw ValueErrors for temperatures &lt; absolute zero.</span></span>
+<span id="cb10-4"><a href="#cb10-4" tabindex="-1" aria-label="code-block-10-4"></a></span>
+<span id="cb10-5"><a href="#cb10-5" tabindex="-1" aria-label="code-block-10-5"></a><span class="co">Functions:</span></span>
+<span id="cb10-6"><a href="#cb10-6" tabindex="-1" aria-label="code-block-10-6"></a><span class="co">    convert_fahr_to_celsius: Converts Fahrenheit to Celsius</span></span>
+<span id="cb10-7"><a href="#cb10-7" tabindex="-1" aria-label="code-block-10-7"></a><span class="co">    convert_fahr_to_kelvin: Converts Fahrenheit to Kelvin</span></span>
+<span id="cb10-8"><a href="#cb10-8" tabindex="-1" aria-label="code-block-10-8"></a><span class="co">"""</span></span></code></pre>
+</div>
+<p>Every language has a few common standards for documentation - for
+Python, they’re the <a href="https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html" class="external-link">Sphinx</a>,
+<a href="https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html" class="external-link">Google</a>
+and <a href="https://numpydoc.readthedocs.io/en/latest/format.html" class="external-link">Numpy</a>
+formats.</p>
+<p>It’s a good idea to stick to a standard not just because it makes it
+easier for others to read your comments, but because these standards are
+also <strong>machine-readable</strong>. Well-formatted comments can be
+converted by tools like <a href="https://readthedocs.io" class="external-link">Sphinx &amp;
+ReadTheDocs</a>) into a searchable website, and you can even include
+images, LaTeX equations or Jupyter Notebooks. <a href="https://docs.poliastro.space/en/stable/api.html" class="external-link">PoliAstro</a> is
+an example scientific project using <strong>ReadTheDocs</strong> to
+include not just function documentation generated from its code, but
+full installation instructions and a list of references.</p>
+<div id="help" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="help" class="callout-inner">
+<h3 class="callout-title">Help</h3>
+<div class="callout-content">
+<p>For languages like Python, docstrings are particularly useful as
+they’re what’s displayed when you use <code>help</code> to get more
+information about a function.</p>
+<p>If you have installed Python and downloaded your
+<code>climate-analysis</code> repository, you can test this by opening a
+terminal, navigating to the repository, and launching a Python
+interpreter with the command <code>python</code> then trying:</p>
+<div class="codewrapper sourceCode" id="cb11">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" tabindex="-1" aria-label="code-block-11-1"></a><span class="op">&gt;</span> <span class="im">from</span> temp_conversion <span class="im">import</span> convert_fahr_to_celsius</span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1" aria-label="code-block-11-2"></a><span class="op">&gt;</span> <span class="bu">help</span>(convert_fahr_to_celsius)</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Always assume that someone else will read your code at a later date,
+including yourself.</li>
+<li>Rename variables and functions to add context to make your code more
+readable.</li>
+<li>Add comments to explain why something was done in a certain way if
+not obvious.</li>
+<li>Don’t add comments that just restate what code clearly already
+does.</li>
+<li>Use docstrings at the start of functions and files to explain their
+behaviour and input/output parameters.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</section></section><section id="aio-06-project"><p>Content from <a href="06-project.html">Managing a Mini-Project</a></p>
+<hr>
+<p>Last updated on 2026-05-31 |
+
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/episodes/06-project.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do we put everything we’ve learnt together?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Go through the steps of managing a small software project.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Now we’ve seen all the steps involved in developing sustainable code,
+let’s put that knowledge into practise.</p>
+<p>Earlier, we made a fork of the <code>project-novice-demo</code>
+repository. The code there is pretty bad - it’s written in a very
+unsustainable way that makes future development harder (and passing the
+project on to another researcher even harder!). However, as a published
+project owned by somebody else, we don’t have the permissions required
+to edit it and fix the problems.</p>
+<p>Fortunately, we have already forked it, and now we’re going to set up
+a small project to improve it. We’ll use the tools we’ve introduced in
+this lesson so far. Forks don’t have <strong>Issues</strong> by default,
+but you can enable them by going to the <strong>Settings</strong> tab,
+then scrolling down to <strong>Features</strong>:</p>
+<p><img src="fig/06-project/project-settings-tab.png" alt="Selecting the settings tab" class="figure"><img src="fig/06-project/project-settings-issues.png" alt="Enabling issues" class="figure"></p>
+<p>Now we can start looking for problems with the project and recording
+them as issues. One immediate one is that there’s no
+<code>develop</code>/<code>dev</code> branch - all the work has been
+done on the <code>master</code>/<code>main</code> branch:</p>
+<figure><img src="fig/06-project/issue-dev.png" alt="No dev branch" class="figure mx-auto d-block"></figure><div id="identifying-issues" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="identifying-issues" class="callout-inner">
+<h3 class="callout-title">Identifying issues</h3>
+<div class="callout-content">
+<p>We’ve found one problem, but there’s <em>plenty</em> more here. Take
+a look at your fork of the <code>project-novice-demo</code> repository,
+identify two more things wrong with the code, and raise them, along with
+the lack of a <code>dev</code> branch, as issues. Don’t try to run the
+code - there’s more than enough things wrong with it that you can spot
+just from a quick read-through. Once you’ve got your issues, create a
+new project board, link it to the repo, and place the issues on it.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>There’s too many things wrong to provide an exhaustive list, but
+here’s a few you may have spotted:</p>
+<ul>
+<li>No stable releases</li>
+<li>Unclear commit messages</li>
+<li>
+<code>LICENSE.md</code> is empty</li>
+<li>
+<code>README.md</code> has an inaccurate list of files</li>
+<li>
+<code>README.md</code> contains broken links</li>
+<li>
+<code>What questions do we want to answer with this data?</code> is
+unfinished</li>
+<li>Multiple versions of the same file in the repository</li>
+<li>Poorly-named functions (e.g. <code>add_column5</code>)</li>
+<li>Poorly-named variables (e.g. <code>df47</code>)</li>
+<li>Poorly-documented functions
+*(e.g. <code>plot_bar_charts</code>)</li>
+<li>Undocumented functions (e.g. <code>produce_count</code>)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p>We’ll go to the <strong>Issues</strong> tab of our
+<code>project-novice-demo</code>, repository, select <strong>New
+Issue</strong>, then create an issue. We can even link our issue
+directly to our project board from here: <img src="fig/06-project/miniproject-issue-link.png" alt="Creating and linking an issue" class="figure"></p>
+<p>Now we’ll work on addressing the issues we’ve raised. If we want to
+use the feature-branch workflow, the lack of a <code>dev</code> branch
+is the first one we need to fix! So we’ll address that first. We go back
+to our project via the <strong>Projects</strong> tab, and move the issue
+to the <strong>In progress</strong> column of our kanban board to let
+our collaborators know we’re fixing it:</p>
+<figure><img src="fig/06-project/miniproject-issue-board.png" alt="Moving to in progress column" class="figure mx-auto d-block"></figure><p>Now we’ll clone our repository to our machine:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a><span class="fu">git</span> clone git@github.com:smangham/project-novice-demo.git</span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>Cloning into 'project-novice-demo'...
+remote: Enumerating objects: 28, done.
+remote: Counting objects: 100% (28/28), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 28 (delta 13), reused 20 (delta 10), pack-reused 0
+Receiving objects: 100% (28/28), 8.32 KiB | 8.32 MiB/s, done.
+Resolving deltas: 100% (13/13), done.</code></pre>
+</div>
+<p>Then create a new branch called <code>dev</code> and push it to our
+remote repository:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1" aria-label="code-block-3-1"></a><span class="fu">git</span> branch dev</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1" aria-label="code-block-3-2"></a><span class="fu">git</span> switch dev</span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>Switched to a new branch 'dev'</code></pre>
+</div>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin dev</span></code></pre>
+</div>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/smangham/project-novice-demo/pull/new/dev
+remote:
+To github.com:smangham/project-novice-demo.git
+ * [new branch]      dev -&gt; dev
+branch 'dev' set up to track 'origin/dev'.</code></pre>
+</div>
+<p>With our work finished, we can close our issue and move it to the
+‘Done’ column:</p>
+<figure><img src="fig/06-project/miniproject-issue-done.png" alt="Moving to done column" class="figure mx-auto d-block"></figure><div id="github-web-interface" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="github-web-interface" class="callout-inner">
+<h3 class="callout-title">GitHub Web Interface</h3>
+<div class="callout-content">
+<p>We suggest fixing this issue by cloning the repository, to run
+through an example of linking up git and GitHub, but it can also be done
+via the web interface on GitHub.</p>
+<p>If you open the list of branches (where we saw there was no
+<code>dev</code> branch), we can click <strong>View all
+branches</strong>:</p>
+<figure><img src="fig/06-project/issue-dev.png" alt="List of branches on GitHub" class="figure mx-auto d-block"></figure><p>On this page, we can click <strong>New branch</strong> on the right
+side to create a new branch:</p>
+<figure><img src="fig/06-project/branch-dev-new.png" alt="New branch on GitHub" class="figure mx-auto d-block"></figure><p>Then in the pop-up we can name the branch <code>dev</code> and create
+it:</p>
+<figure><img src="fig/06-project/branch-dev-detail.png" alt="New branch details" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="solving-problems" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="solving-problems" class="callout-inner">
+<h3 class="callout-title">Solving Problems</h3>
+<div class="callout-content">
+<p>Now we’ve got a <code>dev</code> branch and a project board with a
+<strong>Todo</strong> column with issues in, we can set about fixing one
+of them.</p>
+<p>We want to use the feature-branch workflow, so it would be easy to
+collaborate with other people. Pick one of your open issues, and fix it
+using the feature-branch workflow, then once it’s done issue a release
+of your updated <code>master</code> branch!</p>
+<p>If you don’t have any issues that can be fixed with the
+feature-branch workflow (e.g. <em>‘Unclear commit messages’</em>) then
+add a new issue that the code has a broken link in the
+<code>README.md</code> file and work on fixing that. Small fixes can
+even be done directly on GitHub!</p>
+<p><strong>Note:</strong> On GitHub, if you create a Pull Request on the
+<strong>Pull Requests</strong> tab of a fork, it goes back to the
+repository you forked <em>from</em> by default. Double-check when you’re
+making a <strong>Pull Request</strong> that it’s going to <em>your</em>
+fork repository, not <code>Southampton-RSG-Training</code>!</p>
+<figure><img src="fig/06-project/miniproject-fork-pull.png" alt="Pull request target" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>We can address the broken links like this:</p>
+<ul>
+<li>Move our issue from <strong>Todo</strong> to <strong>In
+Progress</strong>
+</li>
+<li>Go to our <code>README.md</code> file on GitHub, and switch to the
+<code>dev</code> branch version of it <img src="fig/06-project/fix-dev.png" alt="Switch to the `dev` branch" class="figure">
+</li>
+<li>Edit the file on GitHub to put in the correct URL (google it!) <img src="fig/06-project/fix-edit.png" alt="Edit directly on GitHub" class="figure">
+</li>
+<li>Submit your changes as a new branch, and create a pull request <img src="fig/06-project/fix-branch.png" alt="Submit as a new branch" class="figure">
+</li>
+<li>Merge the pull request from our new branch to <code>dev</code>.</li>
+<li>Close our issue on GitHub</li>
+<li>Create a pull request from <code>dev</code> to
+<code>master</code>
+</li>
+<li>When <code>master</code> is up to date, issue a release on
+GitHub.</li>
+</ul>
+<p>Normally, we wouldn’t just merge a branch into <code>dev</code> then
+<code>dev</code> straight into <code>master</code>- we’d merge several
+fixes or new features into <code>dev</code>, then merge to
+<code>master</code> and make a release.</p>
+<p>Now you should have a good idea of the skills and techniques required
+to manage a project successfully!</p>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Problems with code and documentation can be tracked as issues.</li>
+<li>Issues can be managed on a project board.</li>
+<li>Issues can be fixed using the feature-branch workflow.</li>
+<li>Stable versions of the code can be published as releases.</li>
+</ul>
+</div>
+</div>
+</div></section><section id="aio-99-survey"><p>Content from <a href="99-survey.html">Survey</a></p>
+<hr>
+<p>Last updated on 2026-05-31 |
+
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/episodes/99-survey.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Please fill in the <a href="https://docs.google.com/forms/d/e/1FAIpQLScX7g5AZ6sV7TzA4VPPrvBua55lD_rnif6GiPD2_TnuNBBlpg/viewform?usp=pp_url&amp;entry.1679853141=project-novice" class="external-link">Post-Lesson
+Survey</a></p>
+</div>
+</div>
+</div></section>
 </div>
     </main>
 </div>
@@ -485,21 +2495,21 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/edit/main/README.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
+        | <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/Southampton-RSG-Training/project-novice-sandpaper/" class="external-link">Source</a></p>
         <p>
         <a href="citation.html">Cite</a>
-        | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="mailto:rsg-info@soton.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 		</div>
 		<div class="col-md-6">
 
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/" class="external-link">sandpaper (0.20.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/" class="external-link">varnish (1.1.0)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/" class="external-link">sandpaper (0.20.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/Southampton-RSG-Training/varnish/tree/aa46045553ab336decf4dd45b60b3d5f8b9458c1" class="external-link">varnish (1.1.1)</a></p>
 		</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -512,18 +2522,18 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "LearningResource",
-  "@id": "https://carpentries.github.io/workbench-template-md/aio.html",
+  "@id": "https://Southampton-RSG-Training.github.io/project-novice-sandpaper/aio.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/LearningResource/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "project management, github, lesson, The Carpentries",
   "name": "All in One View",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/aio.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/aio.html",
+  "url": "https://Southampton-RSG-Training.github.io/project-novice-sandpaper/aio.html",
+  "identifier": "https://Southampton-RSG-Training.github.io/project-novice-sandpaper/aio.html",
   "dateCreated": "2026-05-21",
-  "dateModified": "2026-05-21",
-  "datePublished": "2026-05-21"
+  "dateModified": "2026-05-31",
+  "datePublished": "2026-05-31"
 }
 
   </script><script>
