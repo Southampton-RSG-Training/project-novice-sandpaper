@@ -1,6 +1,7 @@
 ---
 title: Setup
 ---
+
 ## Accounts
 
 We'll be using the website [GitHub](https://github.com/) to host, back up, and distribute our code.
@@ -10,9 +11,11 @@ As your GitHub username will appear in the URLs of your projects there, it's bes
 ## Repositories
 
 :::::::: prereq
+
 ### Follow-on Lesson
 
 If you've completed our **Version Control with Git** workshop, you can use the `climate-analysis` repository you created during it.
+
 ::::::::
 
 We'll be showing you how to manage an example academic software project, using a simple example.
