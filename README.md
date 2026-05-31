@@ -9,4 +9,4 @@ It also covers software sustainability, encouraging best practise like clear cod
 Follow the setup instructions for [Sandpaper](https://carpentries.github.io/sandpaper/).
 Then, launch R, and run `sandpaper::serve()`.
 
-You can build the slides using the script in the slides directory.
+You can build the slides by entering the `slides` directory and running the `build_slides.sh` script to serve locally.
