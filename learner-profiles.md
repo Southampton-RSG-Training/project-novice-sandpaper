@@ -13,4 +13,3 @@ Ashley is a PhD student late on in their first year, or in their second. They to
 ## Charlie the Computer Scientist
 
 Charlie has plenty of experience writing code in their undergraduate or from a short stint in industry. They're familiar with version control, but don't have *that* much experience running a project themselves. Finding out how different their project is from the sort of industrial practises taught in their undergraduate or time in industry, they want to get a bit more of a handle on how to self-manage.
-

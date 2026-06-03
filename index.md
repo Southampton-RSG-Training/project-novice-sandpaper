@@ -10,18 +10,22 @@ Then, when a project is finished, all the information on how you solved the prob
 
 This workshop covers how we can make sure our code is easy for us to share and work with, as well as easy for other people to cite so we can get credit for the effort we put in.
 
+### Premise
+
 You have been handed some data analysis code written by a previous PhD student, that is intended to load and analyse files containing climate data.
 It's difficult for anyone else to pick up and use, or modify further.
 You'll make it a bit easier and clearer, using some simple processes and tools.
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
-## Prerequisites
-
 This lesson uses **Git** and **GitHub**.
-You should understand how you can commit changes to files to a repository, and have a basic idea of how branches work.
-You should also have a GitHub account, and experience hosting repositories on a site like **GitHub**, **GitLab** or **Codeberg**.
+You should be able to:
 
-The code used in this lesson is Python, but experience with **any programming language** will be sufficient.
+- Commit changes to files to a repository.
+- Have a basic idea of how branches work.
+- Have a GitHub account.
+- Have previously hosted a repository on a site like **GitHub**, **GitLab** or **Codeberg**.
+
+The code used in this lesson is Python, but experience with **any programming language** is enough - the code is just for demonstration purposes.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::

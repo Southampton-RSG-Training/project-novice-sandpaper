@@ -16,7 +16,7 @@
 carpentry: 'rsg'
 
 # Alt-text description of the lesson.
-carpentry_description: 'This course is designed to introduce academics to project management in a light and flexible way, providing basic guidance on breaking a project into tasks to be prioritised and tracked. It also covers software sustainability, encouraging best practise like clear coding and issue management, as well as the use of DOIs and releases to enable easy citation.'
+carpentry_description: 'Southampton Research Software Group'
 
 # Overall title for pages.
 title: 'Managing an Academic Software Project'
